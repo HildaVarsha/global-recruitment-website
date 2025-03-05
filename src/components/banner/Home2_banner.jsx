@@ -61,7 +61,7 @@ export class Banner extends Component {
             className="slide_img"
             style={{
               backgroundImage:
-                "url(https://via.placeholder.com/1920x751?text=slider-mainbg-002-1920x751.jpg)",
+                "url(https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)",
             }}
           ></div>
           <div className="slide__content">
