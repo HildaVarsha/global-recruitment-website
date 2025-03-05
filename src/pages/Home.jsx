@@ -45,6 +45,108 @@ export class Home extends Component {
         },
       ],
     };
+    const sliderSettings = {
+      slidesToShow: 2,
+      rows: 2,
+      arrows: true,
+      autoplay: false,
+      responsive: [
+        { breakpoint: 1024, settings: { slidesToShow: 2, slidesToScroll: 2 } },
+        { breakpoint: 575, settings: { slidesToShow: 1, slidesToScroll: 1 } },
+      ],
+    };
+    const jobCategories = [
+      { title: "Finance", jobs: 85, role: "Financial Branch Manager", image: "https://images.pexels.com/photos/14725368/pexels-photo-14725368.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" },
+      { title: "Technology", jobs: 110, role: "Software, Hardware, SEO", image: "https://images.pexels.com/photos/11459428/pexels-photo-11459428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" },
+      { title: "Agriculture", jobs: 100, role: "Agricultural Food Scientist", image: "https://images.pexels.com/photos/16095185/pexels-photo-16095185/free-photo-of-close-up-of-an-ouroboros-ring-on-a-ring-box.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" },
+      { title: "Construction", jobs: 120, role: "The Marketing Coordinator", image: "https://images.pexels.com/photos/11035546/pexels-photo-11035546.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" },
+      { title: "Manufacturing", jobs: 100, role: "Quality Control Inspector", image: "https://images.pexels.com/photos/11479856/pexels-photo-11479856.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" },
+      { title: "Production", jobs: 90, role: "Assistant Plant Manager", image: "https://images.pexels.com/photos/5852135/pexels-photo-5852135.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" },
+      { title: "Transport", jobs: 125, role: "Cargo and Freight Agents", image: "https://images.pexels.com/photos/18868628/pexels-photo-18868628/free-photo-of-mugs-with-logo.jpeg?auto=compress&cs=tinysrgb&w=800" },
+      { title: "Insurance", jobs: 110, role: "Corporate Finance Officer", image: "https://images.pexels.com/photos/413279/pexels-photo-413279.jpeg?auto=compress&cs=tinysrgb&w=800" },
+    ];
+    const JobCategoryCard = ({ title, jobs, role, image }) => (
+  <div className="col-lg-3 col-md-6 col-sm-6 h-[100px]" style={{height:'300px',marginBottom:'80px'}}>
+    <div className="featured-icon-box icon-align-top-content style1 h-44">
+      <div className="ttm-box-view-overlay">
+        <div className="ttm-col-bgimage-yes ttm-bg h-44" style={{ backgroundImage: `url(${image})` }}></div>
+      </div>
+      <div className="featured-icon">
+        <img className="img-fluid w-12 h-12" src={image} alt={title} style={{height:'50px'}}/>
+      </div>
+      <div className="featured-content">
+        <h3>{title}</h3>
+        <p>{jobs} Jobs<br />{role}</p>
+        <Link className="ttm-btn btn-inline ttm-btn-size-md ttm-btn-color-dark" to="/job_list">
+          Apply Jobs!
+        </Link>
+      </div>
+    </div>
+  </div>
+);
+const services = [
+  {
+    title: "Manpower Supply",
+    description:
+      "We are quality personnel experts to the fields of expertise that needed for all kind of recruit projects",
+  },
+  {
+    title: "Forte Acquisition",
+    description:
+      "HireCo tends to accelerate innovation current and future based solutions to support customers.",
+  },
+  {
+    title: "Technical Services",
+    description:
+      "HireCo supplies a variety of technical services including fabrication, design, and commissioning.",
+  },
+  {
+    title: "Human Resource",
+    description:
+      "The most daunting task of a Human Resource department, which must need to meet deadlines.",
+  },
+  {
+    title: "Executive Search",
+    description:
+      "We, HireCo specializes in recruiting executives and other personnel for their client company.",
+  },
+  {
+    title: "Retained Search",
+    description:
+      "HireCo tends to accelerate innovation current and future based solutions to support customers.",
+  },
+];
+const ServiceCard = ({ title, description }) => (
+  <div className="col-md-12" >
+    <div className="featured-imagebox featured-imagebox-services style1">
+      <div className="featured-thumbnail">
+        <img
+          className="img-fluid"
+          src="https://images.pexels.com/photos/20318300/pexels-photo-20318300/free-photo-of-logo-of-mcdonalds-on-the-street.jpeg?auto=compress&cs=tinysrgb&w=800"
+          alt="Service Image"
+          style={{width:'300px'}}
+        />
+      </div>
+      <div className="featured-content">
+        <div className="featured-title">
+          <h3>
+            <Link to="/services_details">{title}</Link>
+          </h3>
+        </div>
+        <div className="featured-desc">
+          <p>{description}</p>
+        </div>
+        <Link
+          className="ttm-btn btn-inline ttm-btn-size-md ttm-btn-color-darkgrey"
+          to="/services_details"
+        >
+          Read more!
+        </Link>
+      </div>
+    </div>
+  </div>
+);
+
 
     return (
       <div className="site-main">
@@ -55,619 +157,60 @@ export class Home extends Component {
         {/* Banner end */}
 
         {/* features-section */}
+      
         <section className="ttm-row features-section clearfix">
-          <div className="container">
-            {/* row */}
-            <div className="row">
-              <div className="col-lg-12">
-                {/* section title */}
-                <div className="section-title title-style-center_text">
-                  <div className="title-header">
-                    <h3>
-                      Get{" "}
-                      <span className="text-theme-SkinColor">Appropriate</span>
-                    </h3>
-                    <h2 className="title">Search Job By Industry</h2>
-                  </div>
-                </div>
-                {/* section title end */}
-              </div>
-            </div>
-            {/* row end */}
-            {/* row */}
-            <div className="row row-equal-height mb_10">
-              <div className="col-lg-3 col-md-6 col-sm-6">
-                {/* featured-icon-box */}
-                <div className="featured-icon-box icon-align-top-content style1">
-                  <div className="ttm-box-view-overlay">
-                    {/* finance-hover */}
-                    <div className="ttm-col-bgimage-yes ttm-bg h-100">
-                      <div
-                        className="ttm-col-wrapper-bg-layer ttm-bg-layer"
-                        style={{
-                          backgroundImage:
-                            "url(https://via.placeholder.com/600x600?text=600x600+finance-hover.png)",
-                        }}
-                      ></div>
-                      <div className="layer-content"></div>
-                    </div>
-                    {/* finance-hover end */}
-                  </div>
-                  <div className="featured-icon">
-                    <div className="ttm-icon ttm-icon_element-fill ttm-icon_element-style-round ttm-icon_element-color-grey ttm-icon_element-size-lg">
-                      <img className="img-fluid" src="images/cat-icon1.png" />
-                    </div>
-                  </div>
-                  <div className="featured-content">
-                    <div className="featured-title">
-                      <h3>Finance</h3>
-                    </div>
-                    <div className="featured-desc">
-                      <p>
-                        85 Jobs<br></br>Financial Branch Manager
-                      </p>
-                    </div>
-                    <Link
-                      className="ttm-btn btn-inline ttm-btn-size-md ttm-btn-color-dark"
-                      to={"/job_list"}
-                    >
-                      Apply Jobs!
-                    </Link>
-                  </div>
-                </div>
-                {/* featured-icon-box end */}
-              </div>
-              <div className="col-lg-3 col-md-6 col-sm-6">
-                {/* featured-icon-box */}
-                <div className="featured-icon-box icon-align-top-content style1">
-                  <div className="ttm-box-view-overlay">
-                    {/* technology-hover */}
-                    <div className="ttm-col-bgimage-yes ttm-bg h-100">
-                      <div
-                        className="ttm-col-wrapper-bg-layer ttm-bg-layer"
-                        style={{
-                          backgroundImage:
-                            "url(https://via.placeholder.com/600x600?text=600x600+technology-hover.png)",
-                        }}
-                      ></div>
-                      <div className="layer-content"></div>
-                    </div>
-                    {/* technology-hover end */}
-                  </div>
-                  <div className="featured-icon">
-                    <div className="ttm-icon ttm-icon_element-fill ttm-icon_element-style-round ttm-icon_element-color-grey ttm-icon_element-size-lg">
-                      <img className="img-fluid" src="images/cat-icon2.png" />
-                    </div>
-                  </div>
-                  <div className="featured-content">
-                    <div className="featured-title">
-                      <h3>Technology</h3>
-                    </div>
-                    <div className="featured-desc">
-                      <p>
-                        110 Jobs<br></br>Software, Hardware, SEO
-                      </p>
-                    </div>
-                    <Link
-                      className="ttm-btn btn-inline ttm-btn-size-md ttm-btn-color-dark"
-                      to={"/job_list"}
-                    >
-                      Apply Jobs!
-                    </Link>
-                  </div>
-                </div>
-                {/* featured-icon-box end */}
-              </div>
-              <div className="col-lg-3 col-md-6 col-sm-6">
-                {/* featured-icon-box */}
-                <div className="featured-icon-box icon-align-top-content style1 active">
-                  <div className="ttm-box-view-overlay">
-                    {/* agriculture-hover */}
-                    <div className="ttm-col-bgimage-yes ttm-bg h-100">
-                      <div
-                        className="ttm-col-wrapper-bg-layer ttm-bg-layer"
-                        style={{
-                          backgroundImage:
-                            "url(https://via.placeholder.com/600x600?text=600x600+agriculture-hover.png)",
-                        }}
-                      ></div>
-                      <div className="layer-content"></div>
-                    </div>
-                    {/* agriculture-hover end */}
-                  </div>
-                  <div className="featured-icon">
-                    <div className="ttm-icon ttm-icon_element-fill ttm-icon_element-style-round ttm-icon_element-color-grey ttm-icon_element-size-lg">
-                      <img className="img-fluid" src="images/cat-icon3.png" />
-                    </div>
-                  </div>
-                  <div className="featured-content">
-                    <div className="featured-title">
-                      <h3>Agriculture</h3>
-                    </div>
-                    <div className="featured-desc">
-                      <p>
-                        100 Jobs<br></br>Agricultural Food Scientist
-                      </p>
-                    </div>
-                    <Link
-                      className="ttm-btn btn-inline ttm-btn-size-md ttm-btn-color-dark"
-                      to={"/job_list"}
-                    >
-                      Apply Jobs!
-                    </Link>
-                  </div>
-                </div>
-                {/* featured-icon-box end */}
-              </div>
-              <div className="col-lg-3 col-md-6 col-sm-6">
-                {/* featured-icon-box */}
-                <div className="featured-icon-box icon-align-top-content style1">
-                  <div className="ttm-box-view-overlay">
-                    {/* construction-hover */}
-                    <div className="ttm-col-bgimage-yes ttm-bg h-100">
-                      <div
-                        className="ttm-col-wrapper-bg-layer ttm-bg-layer"
-                        style={{
-                          backgroundImage:
-                            "url(https://via.placeholder.com/600x600?text=600x600+construction-hover.png)",
-                        }}
-                      ></div>
-                      <div className="layer-content"></div>
-                    </div>
-                    {/* construction-hover end */}
-                  </div>
-                  <div className="featured-icon">
-                    <div className="ttm-icon ttm-icon_element-fill ttm-icon_element-style-round ttm-icon_element-color-grey ttm-icon_element-size-lg">
-                      <img className="img-fluid" src="images/cat-icon4.png" />
-                    </div>
-                  </div>
-                  <div className="featured-content">
-                    <div className="featured-title">
-                      <h3>Construction</h3>
-                    </div>
-                    <div className="featured-desc">
-                      <p>
-                        120 Jobs<br></br>The Marketing Coordinator
-                      </p>
-                    </div>
-                    <Link
-                      className="ttm-btn btn-inline ttm-btn-size-md ttm-btn-color-dark"
-                      to={"/job_list"}
-                    >
-                      Apply Jobs!
-                    </Link>
-                  </div>
-                </div>
-                {/* featured-icon-box end */}
-              </div>
-              <div className="col-lg-3 col-md-6 col-sm-6">
-                {/* featured-icon-box */}
-                <div className="featured-icon-box icon-align-top-content style1">
-                  <div className="ttm-box-view-overlay">
-                    {/* manufacturing-hover */}
-                    <div className="ttm-col-bgimage-yes ttm-bg h-100">
-                      <div
-                        className="ttm-col-wrapper-bg-layer ttm-bg-layer"
-                        style={{
-                          backgroundImage:
-                            "url(https://via.placeholder.com/600x600?text=600x600+manufacturing-hover.png)",
-                        }}
-                      ></div>
-                      <div className="layer-content"></div>
-                    </div>
-                    {/* manufacturing-hover end */}
-                  </div>
-                  <div className="featured-icon">
-                    <div className="ttm-icon ttm-icon_element-fill ttm-icon_element-style-round ttm-icon_element-color-grey ttm-icon_element-size-lg">
-                      <img className="img-fluid" src="images/cat-icon5.png" />
-                    </div>
-                  </div>
-                  <div className="featured-content">
-                    <div className="featured-title">
-                      <h3>Manufacturing</h3>
-                    </div>
-                    <div className="featured-desc">
-                      <p>
-                        100 Jobs<br></br>Quality Control Inspector
-                      </p>
-                    </div>
-                    <Link
-                      className="ttm-btn btn-inline ttm-btn-size-md ttm-btn-color-dark"
-                      to={"/job_list"}
-                    >
-                      Apply Jobs!
-                    </Link>
-                  </div>
-                </div>
-                {/* featured-icon-box end */}
-              </div>
-              <div className="col-lg-3 col-md-6 col-sm-6">
-                {/* featured-icon-box */}
-                <div className="featured-icon-box icon-align-top-content style1">
-                  <div className="ttm-box-view-overlay">
-                    {/* production-hover */}
-                    <div className="ttm-col-bgimage-yes ttm-bg h-100">
-                      <div
-                        className="ttm-col-wrapper-bg-layer ttm-bg-layer"
-                        style={{
-                          backgroundImage:
-                            "url(https://via.placeholder.com/600x600?text=600x600+production-hover.png)",
-                        }}
-                      ></div>
-                      <div className="layer-content"></div>
-                    </div>
-                    {/* production-hover end */}
-                  </div>
-                  <div className="featured-icon">
-                    <div className="ttm-icon ttm-icon_element-fill ttm-icon_element-style-round ttm-icon_element-color-grey ttm-icon_element-size-lg">
-                      <img className="img-fluid" src="images/cat-icon6.png" />
-                    </div>
-                  </div>
-                  <div className="featured-content">
-                    <div className="featured-title">
-                      <h3>Production</h3>
-                    </div>
-                    <div className="featured-desc">
-                      <p>
-                        90 Jobs<br></br>Assistant Plant Manager
-                      </p>
-                    </div>
-                    <Link
-                      className="ttm-btn btn-inline ttm-btn-size-md ttm-btn-color-dark"
-                      to={"/job_list"}
-                    >
-                      Apply Jobs!
-                    </Link>
-                  </div>
-                </div>
-                {/* featured-icon-box end */}
-              </div>
-              <div className="col-lg-3 col-md-6 col-sm-6">
-                {/* featured-icon-box */}
-                <div className="featured-icon-box icon-align-top-content style1">
-                  <div className="ttm-box-view-overlay">
-                    {/* transport-hover */}
-                    <div className="ttm-col-bgimage-yes ttm-bg h-100">
-                      <div
-                        className="ttm-col-wrapper-bg-layer ttm-bg-layer"
-                        style={{
-                          backgroundImage:
-                            "url(https://via.placeholder.com/600x600?text=600x600+transport-hover.png)",
-                        }}
-                      ></div>
-                      <div className="layer-content"></div>
-                    </div>
-                    {/* transport-hover end */}
-                  </div>
-                  <div className="featured-icon">
-                    <div className="ttm-icon ttm-icon_element-fill ttm-icon_element-style-round ttm-icon_element-color-grey ttm-icon_element-size-lg">
-                      <img className="img-fluid" src="images/cat-icon7.png" />
-                    </div>
-                  </div>
-                  <div className="featured-content">
-                    <div className="featured-title">
-                      <h3>Transport</h3>
-                    </div>
-                    <div className="featured-desc">
-                      <p>
-                        125 Jobs<br></br>Cargo and Freight Agents
-                      </p>
-                    </div>
-                    <Link
-                      className="ttm-btn btn-inline ttm-btn-size-md ttm-btn-color-dark"
-                      to={"/job_list"}
-                    >
-                      Apply Jobs!
-                    </Link>
-                  </div>
-                </div>
-                {/* featured-icon-box end */}
-              </div>
-              <div className="col-lg-3 col-md-6 col-sm-6">
-                {/* featured-icon-box */}
-                <div className="featured-icon-box icon-align-top-content style1">
-                  <div className="ttm-box-view-overlay">
-                    {/* insurance-hover */}
-                    <div className="ttm-col-bgimage-yes ttm-bg h-100">
-                      <div
-                        className="ttm-col-wrapper-bg-layer ttm-bg-layer"
-                        style={{
-                          backgroundImage:
-                            "url(https://via.placeholder.com/600x600?text=600x600+insurance-hover.png)",
-                        }}
-                      ></div>
-                      <div className="layer-content"></div>
-                    </div>
-                    {/* insurance-hover end */}
-                  </div>
-                  <div className="featured-icon">
-                    <div className="ttm-icon ttm-icon_element-fill ttm-icon_element-style-round ttm-icon_element-color-grey ttm-icon_element-size-lg">
-                      <img className="img-fluid" src="images/cat-icon8.png" />
-                    </div>
-                  </div>
-                  <div className="featured-content">
-                    <div className="featured-title">
-                      <h3>Insurance</h3>
-                    </div>
-                    <div className="featured-desc">
-                      <p>
-                        110 Jobs<br></br>Corporate Finance Officer
-                      </p>
-                    </div>
-                    <Link
-                      className="ttm-btn btn-inline ttm-btn-size-md ttm-btn-color-dark"
-                      to={"/job_list"}
-                    >
-                      Apply Jobs!
-                    </Link>
-                  </div>
-                </div>
-                {/* featured-icon-box end */}
-              </div>
-            </div>
-            {/* row end */}
-          </div>
-        </section>
+    <div className="container">
+      <div className="row">
+        <div className="col-lg-12 text-center">
+          <h3>Get <span className="text-theme-SkinColor">Appropriate</span></h3>
+          <h2 className="title">Search Job By Industry</h2>
+        </div>
+      </div>
+      <div className="row row-equal-height mb_10">
+        {jobCategories.map((category, index) => (
+          <JobCategoryCard key={index} {...category} />
+        ))}
+      </div>
+    </div>
+  </section>
         {/* features-section end */}
 
         {/* services-section */}
         <section
-          className="ttm-row services-section bg-img1 bg-theme-GreyColor ttm-bg ttm-bgimage-yes clearfix"
-          style={{ backgroundImage: "url(images/bg-image/row-bgimage-1.png)" }}
-        >
-          <div className="container">
-            {/* row */}
-            <div className="row">
-              <div className="col-lg-11">
-                {/* section title */}
-                <div className="section-title style2 mb-0">
-                  <div className="title-header">
-                    <h3>
-                      Classic{" "}
-                      <span className="text-theme-SkinColor">Service</span>
-                    </h3>
-                    <h2 className="title">We Understand Needs</h2>
-                  </div>
-                  <div className="title-desc">
-                    <p>
-                      A process that involves everything from{" "}
-                      <span className="text-theme-SkinColor">identifying,</span>{" "}
-                      attracting, shortlisting, interviewing, selecting, hiring,
-                      screening & onboarding employees.
-                    </p>
-                  </div>
-                </div>
-                {/* section title end */}
-              </div>
+    className="ttm-row services-section bg-img1 bg-theme-GreyColor ttm-bg ttm-bgimage-yes clearfix"
+    style={{
+      backgroundImage:
+        "url(https://images.pexels.com/photos/6186/vintage-mockup-old-logo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)",
+    }}
+  >
+    <div className="container">
+      <div className="row">
+        <div className="col-lg-11">
+          <div className="section-title style2 mb-0">
+            <div className="title-header">
+              <h3>
+                Classic <span className="text-theme-SkinColor">Service</span>
+              </h3>
+              <h2 className="title">We Understand Needs</h2>
             </div>
-            {/* row end */}
-            {/* Slider */}
-            <Slider
-              className="row slick_slider slick-arrows-style2 pt-20 mb_10"
-              {...slick_slider}
-              slidesToShow={2}
-              rows={2}
-              arrows={true}
-              autoplay={false}
-              responsive={[
-                {
-                  breakpoint: 1024,
-                  settings: { slidesToShow: 2, slidesToScroll: 2 },
-                },
-                {
-                  breakpoint: 575,
-                  settings: { slidesToShow: 1, slidesToScroll: 1 },
-                },
-              ]}
-            >
-              <div className="col-md-12">
-                {/* featured-imagebox */}
-                <div className="featured-imagebox featured-imagebox-services style1">
-                  {/* featured-thumbnail */}
-                  <div className="featured-thumbnail">
-                    <img
-                      src={
-                        "https://via.placeholder.com/600x600?text=600x600+services-01.jpg"
-                      }
-                    />
-                  </div>
-                  {/* featured-thumbnail end */}
-                  <div className="featured-content">
-                    <div className="featured-title">
-                      <h3>
-                        <Link to={"/services_details"}>Manpower Supply</Link>
-                      </h3>
-                    </div>
-                    <div className="featured-desc">
-                      <p>
-                        We are quality personnel experts to the fields of
-                        expertise that needed for all kind of recruit projects
-                      </p>
-                    </div>
-                    <Link
-                      className="ttm-btn btn-inline ttm-btn-size-md ttm-btn-color-darkgrey"
-                      to={"/services_details"}
-                    >
-                      read more!
-                    </Link>
-                  </div>
-                </div>
-                {/* featured-imagebox end */}
-              </div>
-              <div className="col-md-12">
-                {/* featured-imagebox */}
-                <div className="featured-imagebox featured-imagebox-services style1">
-                  {/* featured-thumbnail */}
-                  <div className="featured-thumbnail">
-                    <img
-                      className="img-fluid"
-                      src="https://via.placeholder.com/600x600?text=600x600+services-02.jpg"
-                      alt="image"
-                    />
-                  </div>
-                  {/* featured-thumbnail end */}
-                  <div className="featured-content">
-                    <div className="featured-title">
-                      <h3>
-                        <Link to={"/services_details"}>Forte Acquisition</Link>
-                      </h3>
-                    </div>
-                    <div className="featured-desc">
-                      <p>
-                        HireCo tens to accelerate innovation current and future
-                        based solutions to support customers.
-                      </p>
-                    </div>
-                    <Link
-                      className="ttm-btn btn-inline ttm-btn-size-md ttm-btn-color-darkgrey"
-                      to={"/services_details"}
-                    >
-                      read more!
-                    </Link>
-                  </div>
-                </div>
-                {/* featured-imagebox end */}
-              </div>
-              <div className="col-md-12">
-                {/* featured-imagebox */}
-                <div className="featured-imagebox featured-imagebox-services style1">
-                  {/* featured-thumbnail */}
-                  <div className="featured-thumbnail">
-                    <img
-                      className="img-fluid"
-                      src="https://via.placeholder.com/600x600?text=600x600+services-03.jpg"
-                      alt="image"
-                    />
-                  </div>
-                  {/* featured-thumbnail end */}
-                  <div className="featured-content">
-                    <div className="featured-title">
-                      <h3>
-                        <Link to={"/services_details"}>Technical Services</Link>
-                      </h3>
-                    </div>
-                    <div className="featured-desc">
-                      <p>
-                        HireCo supplies variety of technical service including
-                        fabrication, design, and commissioning
-                      </p>
-                    </div>
-                    <Link
-                      className="ttm-btn btn-inline ttm-btn-size-md ttm-btn-color-darkgrey"
-                      to={"/services_details"}
-                    >
-                      read more!
-                    </Link>
-                  </div>
-                </div>
-                {/* featured-imagebox end */}
-              </div>
-              <div className="col-md-12">
-                {/* featured-imagebox */}
-                <div className="featured-imagebox featured-imagebox-services style1">
-                  {/* featured-thumbnail */}
-                  <div className="featured-thumbnail">
-                    <img
-                      className="img-fluid"
-                      src="https://via.placeholder.com/600x600?text=600x600+services-04.jpg"
-                      alt="image"
-                    />
-                  </div>
-                  {/* featured-thumbnail end */}
-                  <div className="featured-content">
-                    <div className="featured-title">
-                      <h3>
-                        <Link to={"/services_details"}>Human Resource</Link>
-                      </h3>
-                    </div>
-                    <div className="featured-desc">
-                      <p>
-                        The most daunting task of a Human Resource department,
-                        which must need to meet deadline.
-                      </p>
-                    </div>
-                    <Link
-                      className="ttm-btn btn-inline ttm-btn-size-md ttm-btn-color-darkgrey"
-                      to={"/services_details"}
-                    >
-                      read more!
-                    </Link>
-                  </div>
-                </div>
-                {/* featured-imagebox end */}
-              </div>
-              <div className="col-md-12">
-                {/* featured-imagebox */}
-                <div className="featured-imagebox featured-imagebox-services style1">
-                  {/* featured-thumbnail */}
-                  <div className="featured-thumbnail">
-                    <img
-                      className="img-fluid"
-                      src="https://via.placeholder.com/600x600?text=600x600+services-05.jpg"
-                      alt="image"
-                    />
-                  </div>
-                  {/* featured-thumbnail end */}
-                  <div className="featured-content">
-                    <div className="featured-title">
-                      <h3>
-                        <Link to={"/services_details"}>Executive Search</Link>
-                      </h3>
-                    </div>
-                    <div className="featured-desc">
-                      <p>
-                        - We, HireCo specializes in recruiting executives and
-                        other personnel for their client company
-                      </p>
-                    </div>
-                    <Link
-                      className="ttm-btn btn-inline ttm-btn-size-md ttm-btn-color-darkgrey"
-                      to={"/services_details"}
-                    >
-                      read more!
-                    </Link>
-                  </div>
-                </div>
-                {/* featured-imagebox end */}
-              </div>
-              <div className="col-md-12">
-                {/* featured-imagebox */}
-                <div className="featured-imagebox featured-imagebox-services style1">
-                  {/* featured-thumbnail */}
-                  <div className="featured-thumbnail">
-                    <img
-                      className="img-fluid"
-                      src="https://via.placeholder.com/600x600?text=600x600+services-06.jpg"
-                      alt="image"
-                    />
-                  </div>
-                  {/* featured-thumbnail end */}
-                  <div className="featured-content">
-                    <div className="featured-title">
-                      <h3>
-                        <Link to={"/services_details"}>Retained search</Link>
-                      </h3>
-                    </div>
-                    <div className="featured-desc">
-                      <p>
-                        HireCo tens to accelerate innovation current and future
-                        based solutions to support customers.
-                      </p>
-                    </div>
-                    <Link
-                      className="ttm-btn btn-inline ttm-btn-size-md ttm-btn-color-darkgrey"
-                      to={"/services_details"}
-                    >
-                      read more!
-                    </Link>
-                  </div>
-                </div>
-                {/* featured-imagebox end */}
-              </div>
-            </Slider>
-            {/* Slider end */}
+            <div className="title-desc">
+              <p>
+                A process that involves everything from
+                <span className="text-theme-SkinColor"> identifying,</span>
+                attracting, shortlisting, interviewing, selecting, hiring,
+                screening & onboarding employees.
+              </p>
+            </div>
           </div>
-        </section>
+        </div>
+      </div>
+      <Slider className="row slick_slider slick-arrows-style2 pt-20 mb_10" {...sliderSettings}>
+        {services.map((service, index) => (
+          <ServiceCard key={index} {...service} />
+        ))}
+      </Slider>
+    </div>
+  </section>
         {/* services-section end */}
 
         {/* about-section */}
@@ -735,12 +278,12 @@ export class Home extends Component {
                     className="ttm-col-wrapper-bg-layer ttm-bg-layer"
                     style={{
                       backgroundImage:
-                        "url(https://via.placeholder.com/570x520?text=570x520+col-bgimage-1.jpg)",
+                        "url(https://images.pexels.com/photos/4226115/pexels-photo-4226115.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)",
                     }}
                   ></div>
                   <div className="layer-content"></div>
                   <img
-                    src="https://via.placeholder.com/570x520?text=570x520+col-bgimage-1.jpg"
+                    src="https://images.pexels.com/photos/7682352/pexels-photo-7682352.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                     className="img-fluid col-bg-img-res"
                     alt="bgimage"
                   />
@@ -756,12 +299,12 @@ export class Home extends Component {
                     className="ttm-col-wrapper-bg-layer ttm-bg-layer"
                     style={{
                       backgroundImage:
-                        "url(https://via.placeholder.com/570x520?text=570x520+col-bgimage-2.jpg)",
+                        "url(https://images.pexels.com/photos/7682352/pexels-photo-7682352.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)",
                     }}
                   ></div>
                   <div className="layer-content"></div>
                   <img
-                    src="https://via.placeholder.com/570x520?text=570x520+col-bgimage-2.jpg"
+                    src="https://images.pexels.com/photos/7682352/pexels-photo-7682352.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                     className="img-fluid col-bg-img-res"
                     alt="bgimage"
                   />
@@ -829,13 +372,13 @@ export class Home extends Component {
                     className="ttm-col-wrapper-bg-layer ttm-bg-layer"
                     style={{
                       backgroundImage:
-                        "url(https://via.placeholder.com/1092x708?text=1092x708+col-bgimage-3.jpg)",
+                        "url(https://images.pexels.com/photos/23220986/pexels-photo-23220986/free-photo-of-walls-of-buildings-in-city.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)",
                     }}
                   ></div>
                   <div className="layer-content"></div>
                   <img
                     className="img-fluid col-bg-img-res"
-                    src="https://via.placeholder.com/1092x708?text=1092x708+col-bgimage-3.jpg"
+                    src="https://images.pexels.com/photos/23220986/pexels-photo-23220986/free-photo-of-walls-of-buildings-in-city.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                     alt="bgimage"
                   />
                 </div>
@@ -887,7 +430,7 @@ export class Home extends Component {
                                   className="img-fluid alignleft"
                                   height="200"
                                   width="200"
-                                  src="https://via.placeholder.com/200x200?text=tab-img01-200x200.jpg"
+                                  src="https://images.pexels.com/photos/40907/sunrise-sky-clouds-sun-40907.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                                   alt="image"
                                 />
                               </div>
@@ -925,7 +468,7 @@ export class Home extends Component {
                                   className="img-fluid alignleft"
                                   height="200"
                                   width="200"
-                                  src="https://via.placeholder.com/200x200?text=tab-img02-200x200.jpg
+                                  src="https://images.pexels.com/photos/40907/sunrise-sky-clouds-sun-40907.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2
 "
                                   alt="image"
                                 />
@@ -964,7 +507,7 @@ export class Home extends Component {
                                   className="img-fluid alignleft"
                                   height="200"
                                   width="200"
-                                  src="https://via.placeholder.com/200x200?text=tab-img03-200x200.jpg
+                                  src="https://images.pexels.com/photos/40907/sunrise-sky-clouds-sun-40907.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2
 "
                                   alt="image"
                                 />
@@ -1062,8 +605,9 @@ export class Home extends Component {
                       <div className="testimonial-img">
                         <img
                           className="img-fluid"
-                          src="https://via.placeholder.com/150x150?text=150x150+01.jpg"
+                          src="https://images.pexels.com/photos/30994243/pexels-photo-30994243/free-photo-of-stylish-man-in-urban-winter-street-setting.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                           alt="testimonial-img"
+                          style={{width:'50px',height:'50px',objectFit:'cover'}}
                         />
                       </div>
                     </div>
@@ -1108,8 +652,9 @@ export class Home extends Component {
                       <div className="testimonial-img">
                         <img
                           className="img-fluid"
-                          src="https://via.placeholder.com/150x150?text=150x150+02.jpg"
+                          src="https://images.pexels.com/photos/30994243/pexels-photo-30994243/free-photo-of-stylish-man-in-urban-winter-street-setting.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                           alt="testimonial-img"
+                          style={{width:'50px',height:'50px',objectFit:'cover'}}
                         />
                       </div>
                     </div>
@@ -1154,8 +699,9 @@ export class Home extends Component {
                       <div className="testimonial-img">
                         <img
                           className="img-fluid"
-                          src="https://via.placeholder.com/150x150?text=150x150+03.jpg"
+                          src="https://images.pexels.com/photos/30994243/pexels-photo-30994243/free-photo-of-stylish-man-in-urban-winter-street-setting.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                           alt="testimonial-img"
+                          style={{width:'50px',height:'50px',objectFit:'cover'}}
                         />
                       </div>
                     </div>
@@ -1198,10 +744,11 @@ export class Home extends Component {
                   <div className="testimonial-bottom">
                     <div className="testimonial-avatar">
                       <div className="testimonial-img">
-                        <img
+                      <img
                           className="img-fluid"
-                          src="https://via.placeholder.com/150x150?text=150x150+02.jpg"
+                          src="https://images.pexels.com/photos/30994243/pexels-photo-30994243/free-photo-of-stylish-man-in-urban-winter-street-setting.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                           alt="testimonial-img"
+                          style={{width:'50px',height:'50px',objectFit:'cover'}}
                         />
                       </div>
                     </div>
@@ -1434,7 +981,7 @@ export class Home extends Component {
                   <div className="featured-thumbnail">
                     <img
                       className="img-fluid"
-                      src="https://via.placeholder.com/600x430?text=600x430+blog-01-600x430.jpg"
+                      src="https://images.pexels.com/photos/2385562/pexels-photo-2385562.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                       alt="blog-image"
                     />
                     <div className="ttm-box-post-date">
@@ -1487,7 +1034,7 @@ export class Home extends Component {
                   <div className="featured-thumbnail">
                     <img
                       className="img-fluid"
-                      src="https://via.placeholder.com/600x430?text=600x430+blog-02-600x430.jpg"
+                      src="https://images.pexels.com/photos/3760096/pexels-photo-3760096.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                       alt="blog-image"
                     />
                     <div className="ttm-box-post-date">
@@ -1540,7 +1087,7 @@ export class Home extends Component {
                   <div className="featured-thumbnail">
                     <img
                       className="img-fluid"
-                      src="https://via.placeholder.com/600x430?text=600x430+blog-03-600x430.jpg"
+                      src="https://images.pexels.com/photos/2333332/pexels-photo-2333332.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                       alt="blog-image"
                     />
                     <div className="ttm-box-post-date">
@@ -1593,7 +1140,7 @@ export class Home extends Component {
                   <div className="featured-thumbnail">
                     <img
                       className="img-fluid"
-                      src="https://via.placeholder.com/600x430?text=600x430+blog-04-600x430.jpg"
+                      src="https://images.pexels.com/photos/518543/pexels-photo-518543.jpeg"
                       alt="blog-image"
                     />
                     <div className="ttm-box-post-date">

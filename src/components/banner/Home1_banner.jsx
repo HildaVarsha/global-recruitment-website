@@ -54,7 +54,7 @@ export class Banner extends Component {
                 
             <Slider className="slick_slider banner_slider banner_slider_1" {...slick_slider} slidesToShow={1} autoplay={false} >
               <div className="slide">
-                <div className="slide_img" style={{ backgroundImage: 'url(https://via.placeholder.com/1920x751?text=slider-mainbg-001-1920x751.jpg)' }}></div>
+                <div className="slide_img" style={{ backgroundImage: 'url(https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)' }}></div>
                 <div className="slide__content">
                   <div className="container">
                     <div className="row">
