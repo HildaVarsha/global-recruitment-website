@@ -19,12 +19,12 @@ const sliderElements = [
           className="testimonials ttm-testimonial-box-view-style2"
           role="group"
         >
-          <div className="testimonial-top">
+          <div className="" style={{display:'flex'}}>
             <div className="testimonial-avatar">
               <div className="testimonial-img">
                 <img
                   className="img-fluid"
-                  src="https://via.placeholder.com/150x150?text=150x150+01.jpg"
+                  src="https://images.pexels.com/photos/1586996/pexels-photo-1586996.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                   alt="testimonial-img"
                 />
               </div>
@@ -56,12 +56,12 @@ const sliderElements = [
           className="testimonials ttm-testimonial-box-view-style2"
           role="group"
         >
-          <div className="testimonial-top">
+          <div className="" style={{display:'flex'}}>
             <div className="testimonial-avatar">
               <div className="testimonial-img">
                 <img
                   className="img-fluid"
-                  src="https://via.placeholder.com/150x150?text=150x150+02.jpg"
+                  src="https://images.pexels.com/photos/1586996/pexels-photo-1586996.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                   alt="testimonial-img"
                 />
               </div>
@@ -93,12 +93,12 @@ const sliderElements = [
           className="testimonials ttm-testimonial-box-view-style2"
           role="group"
         >
-          <div className="testimonial-top">
+          <div className="" style={{display:'flex'}}>
             <div className="testimonial-avatar">
               <div className="testimonial-img">
                 <img
                   className="img-fluid"
-                  src="https://via.placeholder.com/150x150?text=150x150+03.jpg"
+                  src="https://images.pexels.com/photos/1586996/pexels-photo-1586996.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                   alt="testimonial-img"
                 />
               </div>
@@ -130,12 +130,12 @@ const sliderElements = [
           className="testimonials ttm-testimonial-box-view-style2"
           role="group"
         >
-          <div className="testimonial-top">
+         <div className="" style={{display:'flex'}}>
             <div className="testimonial-avatar">
               <div className="testimonial-img">
                 <img
                   className="img-fluid"
-                  src="https://via.placeholder.com/150x150?text=150x150+01.jpg"
+                  src="https://images.pexels.com/photos/1586996/pexels-photo-1586996.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                   alt="testimonial-img"
                 />
               </div>
@@ -167,12 +167,12 @@ const sliderElements = [
           className="testimonials ttm-testimonial-box-view-style2"
           role="group"
         >
-          <div className="testimonial-top">
+           <div className="" style={{display:'flex'}}>
             <div className="testimonial-avatar">
               <div className="testimonial-img">
                 <img
                   className="img-fluid"
-                  src="https://via.placeholder.com/150x150?text=150x150+02.jpg"
+                  src="https://images.pexels.com/photos/1586996/pexels-photo-1586996.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                   alt="testimonial-img"
                 />
               </div>
@@ -552,12 +552,12 @@ export class Home2 extends Component {
                     className="ttm-col-wrapper-bg-layer ttm-bg-layer"
                     style={{
                       backgroundImage:
-                        "url(https://via.placeholder.com/560x505?text=560x505+col-bgimage-4.jpg)",
+                        "url(https://images.pexels.com/photos/326576/pexels-photo-326576.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)",
                     }}
                   ></div>
                   <div className="layer-content"></div>
                   <img
-                    src="https://via.placeholder.com/560x505?text=560x505+col-bgimage-4.jpg"
+                    src="https://images.pexels.com/photos/326576/pexels-photo-326576.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                     className="img-fluid col-bg-img-res"
                     alt="bgimage"
                   />
@@ -648,7 +648,7 @@ export class Home2 extends Component {
                   <div className="featured-thumbnail">
                     <img
                       src={
-                        "https://via.placeholder.com/720x600?text=720x600+country-01.jpg"
+                        "https://images.pexels.com/photos/460672/pexels-photo-460672.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                       }
                     />
                   </div>
@@ -675,7 +675,7 @@ export class Home2 extends Component {
                   <div className="featured-thumbnail">
                     <img
                       className="img-fluid"
-                      src="https://via.placeholder.com/720x600?text=720x600+country-02.jpg"
+                      src="https://images.pexels.com/photos/672532/pexels-photo-672532.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                       alt="image"
                     />
                   </div>
@@ -703,7 +703,7 @@ export class Home2 extends Component {
                   <div className="featured-thumbnail">
                     <img
                       className="img-fluid"
-                      src="https://via.placeholder.com/720x600?text=720x600+country-03.jpg"
+                      src="https://images.pexels.com/photos/1796715/pexels-photo-1796715.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                       alt="image"
                     />
                   </div>
@@ -730,7 +730,7 @@ export class Home2 extends Component {
                   <div className="featured-thumbnail">
                     <img
                       className="img-fluid"
-                      src="https://via.placeholder.com/720x600?text=720x600+country-04.jpg"
+                      src="https://images.pexels.com/photos/220769/pexels-photo-220769.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                       alt="image"
                     />
                   </div>
@@ -757,7 +757,7 @@ export class Home2 extends Component {
                   <div className="featured-thumbnail">
                     <img
                       className="img-fluid"
-                      src="https://via.placeholder.com/720x600?text=720x600+country-01.jpg"
+                      src="https://images.pexels.com/photos/220887/pexels-photo-220887.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                       alt="image"
                     />
                   </div>
@@ -784,7 +784,7 @@ export class Home2 extends Component {
                   <div className="featured-thumbnail">
                     <img
                       className="img-fluid"
-                      src="https://via.placeholder.com/720x600?text=720x600+country-03.jpg"
+                      src="https://images.pexels.com/photos/726484/pexels-photo-726484.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                       alt="image"
                     />
                   </div>
@@ -839,7 +839,7 @@ export class Home2 extends Component {
                       <div className="client-thumbnail">
                         <img
                           className="img-fluid"
-                          src="https://via.placeholder.com/159x52?text=159x52+client-01.png"
+                          src="https://images.pexels.com/photos/3229970/pexels-photo-3229970.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                           alt="image"
                         />
                       </div>
@@ -850,7 +850,7 @@ export class Home2 extends Component {
                       <div className="client-thumbnail">
                         <img
                           className="img-fluid"
-                          src="https://via.placeholder.com/159x52?text=159x52+client-02.png"
+                          src="https://images.pexels.com/photos/269077/pexels-photo-269077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                           alt="image"
                         />
                       </div>
@@ -861,7 +861,7 @@ export class Home2 extends Component {
                       <div className="client-thumbnail">
                         <img
                           className="img-fluid"
-                          src="https://via.placeholder.com/159x52?text=159x52+client-03.png"
+                          src="https://images.pexels.com/photos/443383/pexels-photo-443383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                           alt="image"
                         />
                       </div>
@@ -875,7 +875,7 @@ export class Home2 extends Component {
                       <div className="client-thumbnail">
                         <img
                           className="img-fluid"
-                          src="https://via.placeholder.com/159x52?text=159x52+client-04.png"
+                          src="https://images.pexels.com/photos/30950156/pexels-photo-30950156/free-photo-of-historic-charles-scribner-s-sons-building-in-nyc.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                           alt="image"
                         />
                       </div>
@@ -886,7 +886,7 @@ export class Home2 extends Component {
                       <div className="client-thumbnail">
                         <img
                           className="img-fluid"
-                          src="https://via.placeholder.com/159x52?text=159x52+client-05.png"
+                          src="https://images.pexels.com/photos/11542516/pexels-photo-11542516.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                           alt="image"
                         />
                       </div>
@@ -897,7 +897,7 @@ export class Home2 extends Component {
                       <div className="client-thumbnail">
                         <img
                           className="img-fluid"
-                          src="https://via.placeholder.com/159x52?text=159x52+client-06.png"
+                          src="https://images.pexels.com/photos/5990271/pexels-photo-5990271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                           alt="image"
                         />
                       </div>
@@ -915,7 +915,7 @@ export class Home2 extends Component {
           className="ttm-row fid-section bg-img4 bg-theme-DarkColor ttm-bg ttm-bgimage-yes text-theme-WhiteColor clearfix"
           style={{
             backgroundImage:
-              'url("https://via.placeholder.com/1920x570?text=1920x570+row-bgimage-4.jpg")',
+              'url("https://images.pexels.com/photos/5990042/pexels-photo-5990042.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")',
           }}
         >
           <div className="ttm-row-wrapper-bg-layer ttm-bg-layer bg-theme-DarkColor"></div>
@@ -1136,7 +1136,7 @@ export class Home2 extends Component {
                 <div className="ttm_single_image-wrapper">
                   <img
                     className="img-fluid"
-                    src="https://via.placeholder.com/570x580?text=single-img-03-570x580.jpg"
+                    src="https://images.pexels.com/photos/7414273/pexels-photo-7414273.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                     alt="single_03"
                   />
                 </div>
@@ -1193,7 +1193,8 @@ export class Home2 extends Component {
                   <div className="featured-thumbnail">
                     <img
                       className="img-fluid"
-                      src="https://via.placeholder.com/400x480?text=400x480+blog-01-400x480.jpg"
+                      style={{width:'60px'}}
+                      src="https://images.pexels.com/photos/1369476/pexels-photo-1369476.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                       alt="blog-image"
                     />
                     <div className="ttm-box-post-date">
@@ -1245,8 +1246,9 @@ export class Home2 extends Component {
                   <div className="featured-thumbnail">
                     <img
                       className="img-fluid"
-                      src="https://via.placeholder.com/400x480?text=400x480+blog-02-400x480.jpg"
+                      src="https://images.pexels.com/photos/1577882/pexels-photo-1577882.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                       alt="blog-image"
+                      style={{width:'80px'}}
                     />
                     <div className="ttm-box-post-date">
                       <span className="ttm-entry-date">
@@ -1297,7 +1299,7 @@ export class Home2 extends Component {
                   <div className="featured-thumbnail">
                     <img
                       className="img-fluid"
-                      src="https://via.placeholder.com/400x480?text=400x480+blog-03-400x480.jpg"
+                      src="https://images.pexels.com/photos/1369476/pexels-photo-1369476.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                       alt="blog-image"
                     />
                     <div className="ttm-box-post-date">
@@ -1349,7 +1351,7 @@ export class Home2 extends Component {
                   <div className="featured-thumbnail">
                     <img
                       className="img-fluid"
-                      src="https://via.placeholder.com/400x480?text=400x480+blog-04-400x480.jpg"
+                      src="https://images.pexels.com/photos/1369476/pexels-photo-1369476.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                       alt="blog-image"
                     />
                     <div className="ttm-box-post-date">
