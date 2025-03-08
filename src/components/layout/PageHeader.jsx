@@ -7,7 +7,7 @@ const PageHeader = ({ title, content, breadcrumb, className }) => {
       className="page-header-area bg-img"
       style={{
         backgroundImage:
-          "url(https://via.placeholder.com/1920x193?text=pagetitle-bg-1920x193.png)",
+          "url(https://images.pexels.com/photos/8866776/pexels-photo-8866776.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)",
       }}
     >
       <div className="page-header-area-inner">

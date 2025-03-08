@@ -37,9 +37,9 @@ const sliderElements = [
           <div className="testimonial-content">
             <blockquote className="testimonial-text">
               It has always been so easy to do work with any team member at
-              HireCo. An effortless partnership. I was mentored by one of the
+              Global Recruitment. An effortless partnership. I was mentored by one of the
               consultants in a time when I was very young and vulnerable in the
-              HR world. Recommend HireCo!
+              HR world. Recommend Global Recruitment!
             </blockquote>
           </div>
         </div>
@@ -110,7 +110,7 @@ const sliderElements = [
           </div>
           <div className="testimonial-content">
             <blockquote className="testimonial-text">
-              I have been working with HireCo, for the past month. This was my
+              I have been working with Global Recruitment, for the past month. This was my
               first experience working with a recruiter and it has been amazing.
               I couldn’t have asked for more. She took into account my CV and
               experience and recommended.
@@ -147,7 +147,7 @@ const sliderElements = [
           </div>
           <div className="testimonial-content">
             <blockquote className="testimonial-text">
-              HireCo has been the ultimate recruitment professional throughout
+            Global Recruitment has been the ultimate recruitment professional throughout
               the entire process. It has kept to his word regarding
               communicating with me and with all other commitments made. I have
               found them be extremely helpful.
@@ -184,7 +184,7 @@ const sliderElements = [
           </div>
           <div className="testimonial-content">
             <blockquote className="testimonial-text">
-              I can't thank HireCo Recruitment enough for helping me secure my
+              I can't thank Global Recruitment enough for helping me secure my
               current role. Very professional & is very good at determining
               where a person's skill set is best served. Whenever I had the
               pleasure of speaking them always!
@@ -457,7 +457,7 @@ export class Home2 extends Component {
                   <div className="featured-content">
                     <div className="featured-desc">
                       <p>
-                        HireCo tens to accelerate innovation current and future
+                      Global Recruitment tens to accelerate innovation current and future
                         based solutions to support
                       </p>
                     </div>

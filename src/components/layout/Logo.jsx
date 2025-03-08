@@ -4,14 +4,15 @@ import { Link } from "react-router-dom";
 class Logo extends Component {
   render() {
     return (
-      <Link className="home-link" to={"/"} title="Hireco" rel="home">
+      <Link className="home-link" to={"/"} title="" rel="home">
         <img
           id="logo-img"
-          height="42"
+          height="60"
           width="170"
           className="img-fluid auto_size"
-          src="images/logo-img.svg"
+          src="/logo-global.png"
           alt="logo-img"
+          style={{objectFit:'cover'}}
         />
       </Link>
     );

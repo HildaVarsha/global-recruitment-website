@@ -115,7 +115,7 @@ export class About_us extends Component {
                               className="img-fluid alignleft"
                               height="200"
                               width="200"
-                              src="https://via.placeholder.com/200x200?text=tab-img01-200x200.jpg"
+                              src="https://images.pexels.com/photos/3184430/pexels-photo-3184430.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                               alt="image"
                             />
                           </div>
@@ -152,7 +152,7 @@ export class About_us extends Component {
                               className="img-fluid alignleft"
                               height="200"
                               width="200"
-                              src="https://via.placeholder.com/200x200?text=tab-img02-200x200.jpg"
+                              src="https://images.pexels.com/photos/7433822/pexels-photo-7433822.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                               alt="image"
                             />
                           </div>
@@ -189,7 +189,7 @@ export class About_us extends Component {
                               className="img-fluid alignleft"
                               height="200"
                               width="200"
-                              src="https://via.placeholder.com/200x200?text=tab-img03-200x200.jpg"
+                              src="https://images.pexels.com/photos/7688173/pexels-photo-7688173.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                               alt="image"
                             />
                           </div>
@@ -227,7 +227,7 @@ export class About_us extends Component {
                 <div className="mr-30 mt-30 mt-lg-60 mb-lg-30">
                   <div className="d-flex">
                     <img
-                      src="https://via.placeholder.com/541x420?text=single-img-05-541x420.jpg"
+                      src="https://images.pexels.com/photos/5990271/pexels-photo-5990271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                       className="img-fluid"
                       alt="single_05"
                     />
@@ -289,7 +289,7 @@ export class About_us extends Component {
                   <div className="featured-thumbnail">
                     <img
                       className="img-fluid"
-                      src="https://via.placeholder.com/600x800?text=600x600+team-img01-600x800.jpg"
+                      src="https://images.pexels.com/photos/3810795/pexels-photo-3810795.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                     />
                   </div>
                   {/* featured-thumbnail end */}
@@ -339,7 +339,7 @@ export class About_us extends Component {
                   <div className="featured-thumbnail">
                     <img
                       className="img-fluid"
-                      src="https://via.placeholder.com/600x800?text=600x600+team-img02-600x800.jpg"
+                      src="https://images.pexels.com/photos/7652469/pexels-photo-7652469.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                     />
                   </div>
                   {/* featured-thumbnail end */}
@@ -389,7 +389,7 @@ export class About_us extends Component {
                   <div className="featured-thumbnail">
                     <img
                       className="img-fluid"
-                      src="https://via.placeholder.com/600x800?text=600x600+team-img03-600x800.jpg"
+                      src="https://images.pexels.com/photos/7550397/pexels-photo-7550397.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                     />
                   </div>
                   {/* featured-thumbnail end */}
@@ -439,7 +439,7 @@ export class About_us extends Component {
                   <div className="featured-thumbnail">
                     <img
                       className="img-fluid"
-                      src="https://via.placeholder.com/600x800?text=600x600+team-img04-600x800.jpg"
+                      src="https://images.pexels.com/photos/3184352/pexels-photo-3184352.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                     />
                   </div>
                   {/* featured-thumbnail end */}
@@ -489,7 +489,7 @@ export class About_us extends Component {
                   <div className="featured-thumbnail">
                     <img
                       className="img-fluid"
-                      src="https://via.placeholder.com/600x800?text=600x600+team-img02-600x800.jpg"
+                      src="https://images.pexels.com/photos/7693745/pexels-photo-7693745.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                     />
                   </div>
                   {/* featured-thumbnail end */}
@@ -539,7 +539,7 @@ export class About_us extends Component {
                   <div className="featured-thumbnail">
                     <img
                       className="img-fluid"
-                      src="https://via.placeholder.com/600x800?text=600x600+team-img04-600x800.jpg"
+                      src="https://images.pexels.com/photos/3184420/pexels-photo-3184420.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                     />
                   </div>
                   {/* featured-thumbnail end */}
@@ -593,7 +593,7 @@ export class About_us extends Component {
           className="ttm-row padding_bottom_zero-section bg-img6 bg-theme-DarkColor ttm-bg ttm-bgimage-yes text-theme-WhiteColor clearfix"
           style={{
             backgroundImage:
-              'url("https://via.placeholder.com/1920x640?text=1920x640+row-bgimage-6.jpg")',
+              'url("https://images.pexels.com/photos/7688435/pexels-photo-7688435.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")',
           }}
         >
           <div className="ttm-row-wrapper-bg-layer ttm-bg-layer bg-theme-DarkColor"></div>
@@ -824,7 +824,7 @@ export class About_us extends Component {
                         <div className="d-inline-block pt-10 pb-10 pr-60 pr-md-30">
                           <img
                             className="img-fluid"
-                            src="https://via.placeholder.com/170x120?text=award1-170x120.png"
+                            src="https://images.pexels.com/photos/2098604/pexels-photo-2098604.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                             alt="award1"
                           />
                           <div className="pt-20 text-center">
@@ -838,7 +838,7 @@ export class About_us extends Component {
                         <div className="d-inline-block pt-10 pb-10 pl-60 pl-md-30">
                           <img
                             className="img-fluid"
-                            src="https://via.placeholder.com/170x120?text=award1-170x120.png"
+                            src="https://images.pexels.com/photos/7005622/pexels-photo-7005622.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                             alt="award2"
                           />
                           <div className="pt-20 text-center">
@@ -869,13 +869,13 @@ export class About_us extends Component {
                     className="ttm-col-wrapper-bg-layer ttm-bg-layer"
                     style={{
                       backgroundImage:
-                        "url(https://via.placeholder.com/902x673?text=902x673+col-bgimage-6.jpg)",
+                        "url(https://images.pexels.com/photos/443383/pexels-photo-443383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)",
                     }}
                   ></div>
                   <div className="layer-content"></div>
                   <img
                     className="img-fluid col-bg-img-res"
-                    src="https://via.placeholder.com/902x673?text=902x673+col-bgimage-6.jpg"
+                    src="https://images.pexels.com/photos/1181715/pexels-photo-1181715.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                     alt="bgimage"
                   />
                 </div>
@@ -922,7 +922,7 @@ export class About_us extends Component {
                   <div className="testimonial-content">
                     <blockquote className="testimonial-text">
                       It has always been so easy to do work with team member at
-                      HireCo. It's an much effortless partnership.
+                      Global Recruitment. It's an much effortless partnership.
                     </blockquote>
                     <div className="star-ratings">
                       <ul className="rating">
@@ -949,8 +949,9 @@ export class About_us extends Component {
                       <div className="testimonial-img">
                         <img
                           className="img-fluid"
-                          src="https://via.placeholder.com/150x150?text=150x150+01.jpg"
+                          src="https://images.pexels.com/photos/1586996/pexels-photo-1586996.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                           alt="testimonial-img"
+                          style={{objectFit:'cover'}}
                         />
                       </div>
                     </div>
@@ -993,10 +994,11 @@ export class About_us extends Component {
                   <div className="testimonial-bottom">
                     <div className="testimonial-avatar">
                       <div className="testimonial-img">
-                        <img
+                      <img
                           className="img-fluid"
-                          src="https://via.placeholder.com/150x150?text=150x150+02.jpg"
+                          src="https://images.pexels.com/photos/1586996/pexels-photo-1586996.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                           alt="testimonial-img"
+                          style={{objectFit:'cover'}}
                         />
                       </div>
                     </div>
@@ -1039,10 +1041,11 @@ export class About_us extends Component {
                   <div className="testimonial-bottom">
                     <div className="testimonial-avatar">
                       <div className="testimonial-img">
-                        <img
+                      <img
                           className="img-fluid"
-                          src="https://via.placeholder.com/150x150?text=150x150+03.jpg"
+                          src="https://images.pexels.com/photos/1586996/pexels-photo-1586996.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                           alt="testimonial-img"
+                          style={{objectFit:'cover'}}
                         />
                       </div>
                     </div>
@@ -1085,10 +1088,11 @@ export class About_us extends Component {
                   <div className="testimonial-bottom">
                     <div className="testimonial-avatar">
                       <div className="testimonial-img">
-                        <img
+                      <img
                           className="img-fluid"
-                          src="https://via.placeholder.com/150x150?text=150x150+02.jpg"
+                          src="https://images.pexels.com/photos/1586996/pexels-photo-1586996.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                           alt="testimonial-img"
+                          style={{objectFit:'cover'}}
                         />
                       </div>
                     </div>
@@ -1127,14 +1131,14 @@ export class About_us extends Component {
                   <div className="ttm_single_image-wrapper mb-20">
                     <img
                       className="img-fluid w-100"
-                      src="https://via.placeholder.com/530x190?text=single-img-06-530x190.jpg"
+                      src="/logo-global.png"
                       alt="single_06"
                     />
                   </div>
                   <p className="mb-30">
                     Need help? We exist to serve the user with the purpose of
                     providing them with information. We want you to find what
-                    you’re looking for. For any query, please contact HireCo
+                    you’re looking for. For any query, please contact Global Recruitment
                     experts for the best solution.
                   </p>
 
@@ -1147,7 +1151,7 @@ export class About_us extends Component {
                     </div>
                     <div className="pl-15">
                       <h6 className="mb-5">Call Anytime</h6>
-                      <p className="featured-desc mb-0">+1800 200 12345</p>
+                      <p className="featured-desc mb-0">+44 7734 456458</p>
                     </div>
                   </div>
 
@@ -1162,7 +1166,7 @@ export class About_us extends Component {
                     </div>
                     <div className="pl-15">
                       <h6 className="mb-5">Send Email</h6>
-                      <p className="featured-desc mb-0">needhelp@company.com</p>
+                      <p className="featured-desc mb-0">info@theglobalrecruitment.com</p>
                     </div>
                   </div>
 
@@ -1178,7 +1182,8 @@ export class About_us extends Component {
                     <div className="pl-15">
                       <h6 className="mb-5">Visit Office</h6>
                       <p className="featured-desc mb-0">
-                        85 Sroklyn Random Street USA
+                      292-294 Plashet Grove,London,E6
+                      1DQ.
                       </p>
                     </div>
                   </div>
@@ -1262,10 +1267,12 @@ export class About_us extends Component {
           <div className="map_container clearfix">
             <div id="map">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31910.482517672368!2d36.809513570685034!3d-1.287957978762343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1127cedf25db%3A0x30058f663edadad0!2sCity%20Square%2C%20Nairobi%2C%20Kenya!5e0!3m2!1sen!2sin!4v1626089823926!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19808.45172907477!2d0.0382193158246021!3d51.53903237964168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a7f1a8c6a6d7%3A0x8e8c0e3e7e1a1f6a!2s292-294%20Plashet%20Grove%2C%20London%20E6%201DQ%2C%20UK!5e0!3m2!1sen!2sin!4v1626089823926!5m2!1sen!2sin"
                 width="100%"
                 height="450"
               ></iframe>
+            
+
             </div>
           </div>
         </div>
@@ -1290,8 +1297,7 @@ export class About_us extends Component {
                       </div>
                       <div className="featured-desc">
                         <p>
-                          We have over 30 years experience oft Business porro
-                          qusquam dol ipsum quia dolor sit amet.
+                          We have over 10 years experience of Business.
                         </p>
                       </div>
                     </div>
