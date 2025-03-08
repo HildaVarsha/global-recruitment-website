@@ -11,17 +11,18 @@ export class Footer extends Component {
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 widget-area">
                 <div className="widget widget_text clearfix">
                   <div className="footer-logo">
-                    <img
-                      id="footer-logo-img"
-                      className="img-fluid auto_size"
-                      height="40"
-                      width="162"
-                      src="images/footer-logo.svg"
-                      alt="footer-logo"
-                    />
+                  <img
+          id="logo-img"
+          height="60"
+          width="170"
+          className="img-fluid auto_size"
+          src="/logo-global.png"
+          alt="logo-img"
+          style={{objectFit:'cover'}}
+        />
                   </div>
                   <p>
-                    HireCo is multi award-winning executive search, management
+                    Global Recruitment is multi award-winning executive search, management
                     recruiter and employer branding organization. Our customized
                     recruiting process delivers fast & accurate results
                   </p>
@@ -119,16 +120,16 @@ export class Footer extends Component {
                   <ul className="widget_contact_wrapper">
                     <li>
                       <i className="ttm-textcolor-skincolor flaticon-phone-call"></i>
-                      <h3>Call Us On:</h3>+92 777 555 0000
+                      <h3>Call Us On:</h3>+44 7734 456458
                     </li>
                     <li>
                       <i className="ttm-textcolor-skincolor flaticon-placeholder"></i>
-                      <h3>Address:</h3>Suite 20 Golden Street USA
+                      <h3>Address:</h3>292-294 Plashet Grove,London,E6 1DQ.
                     </li>
                     <li>
                       <i className="ttm-textcolor-skincolor flaticon-email"></i>
                       <h3>Email:</h3>
-                      <Link to="mailto:info@example.com">info@example.com</Link>
+                      <Link to="mailto:info@theglobalrecruitment.com">info@theglobalrecruitment.com</Link>
                     </li>
                   </ul>
                 </div>
@@ -141,7 +142,7 @@ export class Footer extends Component {
             <div className="row">
               <div className="col-lg-8 col-md-6">
                 <span className="copyright">
-                  Copyright © 2021 <Link to={"/"}>HireCo </Link>All rights
+                  Copyright © 2025 <Link to={"/"}>Global Recruitment </Link>All rights
                   reserved.
                 </span>
                 <ul className="footer-nav-menu">

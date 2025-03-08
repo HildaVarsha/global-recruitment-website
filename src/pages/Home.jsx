@@ -93,12 +93,12 @@ const services = [
   {
     title: "Forte Acquisition",
     description:
-      "HireCo tends to accelerate innovation current and future based solutions to support customers.",
+      "Global Recruitment tends to accelerate innovation current and future based solutions to support customers.",
   },
   {
     title: "Technical Services",
     description:
-      "HireCo supplies a variety of technical services including fabrication, design, and commissioning.",
+      "Global Recruitment supplies a variety of technical services including fabrication, design, and commissioning.",
   },
   {
     title: "Human Resource",
@@ -108,12 +108,12 @@ const services = [
   {
     title: "Executive Search",
     description:
-      "We, HireCo specializes in recruiting executives and other personnel for their client company.",
+      "We, Global Recruitment specializes in recruiting executives and other personnel for their client company.",
   },
   {
     title: "Retained Search",
     description:
-      "HireCo tends to accelerate innovation current and future based solutions to support customers.",
+      "Global Recruitment tends to accelerate innovation current and future based solutions to support customers.",
   },
 ];
 const ServiceCard = ({ title, description }) => (
@@ -258,7 +258,7 @@ const ServiceCard = ({ title, description }) => (
                         <i className="far fa-check-circle"></i>
                         <div className="ttm-list-li-content">
                           Other questions & have already applied through the
-                          HireCo platform
+                          Global Recruitment platform
                         </div>
                       </li>
                     </ul>
@@ -323,7 +323,7 @@ const ServiceCard = ({ title, description }) => (
                     </div>
                     <div className="title-desc">
                       <p>
-                        HireCo has over 30 years experience of Financial,
+                      Global Recruitment has over 30 years experience of Financial,
                         Marketing and Business Solutions expertise. Helps
                         businesses improve their processes, products, services.
                         Serve as the intermediary between businesses.
@@ -578,7 +578,7 @@ const ServiceCard = ({ title, description }) => (
                   <div className="testimonial-content">
                     <blockquote className="testimonial-text">
                       It has always been so easy to do work with team member at
-                      HireCo. It's an much effortless partnership.
+                      Global Recruitment. It's an much effortless partnership.
                     </blockquote>
                     <div className="star-ratings">
                       <ul className="rating">

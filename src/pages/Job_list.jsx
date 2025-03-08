@@ -276,7 +276,7 @@ export class Job_list extends Component {
                       className="ttm-col-wrapper-bg-layer ttm-bg-layer bg-theme-DarkColor"
                       style={{
                         backgroundImage:
-                          "url(https://via.placeholder.com/875x583?text=875x583+col-bgimage-7.jpg)",
+                          "url(https://images.pexels.com/photos/416405/pexels-photo-416405.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)",
                       }}
                     >
                       <div className="ttm-col-wrapper-bg-layer-inner bg-theme-DarkColor"></div>
@@ -330,8 +330,8 @@ export class Job_list extends Component {
                   <div className="col-lg-12 col-md-12">
                     {/* featured-imagebox */}
                     <div className="featured-imagebox featured-imagebox-job bg-theme-GreyColor">
-                      <div className="featured-thumbnail">
-                        <img src="https://via.placeholder.com/210x204?text=210x204+job-01.png" />
+                      <div className="featured-thumbnail" style={{width:"20px"}}>
+                        <img src="/job-logo.png" />
                       </div>
                       <div className="featured-content">
                         <div className="featured-title">
@@ -365,7 +365,7 @@ export class Job_list extends Component {
                     {/* featured-imagebox */}
                     <div className="featured-imagebox featured-imagebox-job bg-theme-GreyColor">
                       <div className="featured-thumbnail">
-                        <img src="https://via.placeholder.com/210x204?text=210x204+job-02.png" />
+                      <img src="/job-logo.png" />
                         <div className="required-tag">Urgent</div>
                       </div>
                       <div className="featured-content">
@@ -400,7 +400,7 @@ export class Job_list extends Component {
                     {/* featured-imagebox */}
                     <div className="featured-imagebox featured-imagebox-job bg-theme-GreyColor">
                       <div className="featured-thumbnail">
-                        <img src="https://via.placeholder.com/210x204?text=210x204+job-03.png" />
+                      <img src="/job-logo.png" />
                       </div>
                       <div className="featured-content">
                         <div className="featured-title">
@@ -436,7 +436,7 @@ export class Job_list extends Component {
                     {/* featured-imagebox */}
                     <div className="featured-imagebox featured-imagebox-job bg-theme-GreyColor">
                       <div className="featured-thumbnail">
-                        <img src="https://via.placeholder.com/210x204?text=210x204+job-04.png" />
+                        <img src="/job-logo.png" />
                       </div>
                       <div className="featured-content">
                         <div className="featured-title">
@@ -472,7 +472,7 @@ export class Job_list extends Component {
                     {/* featured-imagebox */}
                     <div className="featured-imagebox featured-imagebox-job bg-theme-GreyColor">
                       <div className="featured-thumbnail">
-                        <img src="https://via.placeholder.com/210x204?text=210x204+job-05.png" />
+                       <img src="/job-logo.png" />
                       </div>
                       <div className="featured-content">
                         <div className="featured-title">
@@ -506,7 +506,7 @@ export class Job_list extends Component {
                     {/* featured-imagebox */}
                     <div className="featured-imagebox featured-imagebox-job bg-theme-GreyColor">
                       <div className="featured-thumbnail">
-                        <img src="https://via.placeholder.com/210x204?text=210x204+job-06.png" />
+                      <img src="/job-logo.png" />
                       </div>
                       <div className="featured-content">
                         <div className="featured-title">
@@ -540,7 +540,7 @@ export class Job_list extends Component {
                     {/* featured-imagebox */}
                     <div className="featured-imagebox featured-imagebox-job bg-theme-GreyColor">
                       <div className="featured-thumbnail">
-                        <img src="https://via.placeholder.com/210x204?text=210x204+job-02.png" />
+                      <img src="/job-logo.png" />
                         <div className="required-tag">Urgent</div>
                       </div>
                       <div className="featured-content">
@@ -575,7 +575,7 @@ export class Job_list extends Component {
                     {/* featured-imagebox */}
                     <div className="featured-imagebox featured-imagebox-job bg-theme-GreyColor">
                       <div className="featured-thumbnail">
-                        <img src="https://via.placeholder.com/210x204?text=210x204+job-03.png" />
+                      <img src="/job-logo.png" />
                       </div>
                       <div className="featured-content">
                         <div className="featured-title">
@@ -611,7 +611,7 @@ export class Job_list extends Component {
                     {/* featured-imagebox */}
                     <div className="featured-imagebox featured-imagebox-job bg-theme-GreyColor">
                       <div className="featured-thumbnail">
-                        <img src="https://via.placeholder.com/210x204?text=210x204+job-04.png" />
+                        <img src="/job-logo.png" />
                       </div>
                       <div className="featured-content">
                         <div className="featured-title">

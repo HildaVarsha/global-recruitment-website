@@ -115,11 +115,12 @@ export class Services extends Component {
                 {/* featured-imagebox */}
                 <div className="featured-imagebox featured-imagebox-services style1">
                   {/* featured-thumbnail */}
-                  <div className="featured-thumbnail">
+                  <div className="featured-thumbnail" style={{width:"300px"}}>
                     <img
                       src={
-                        "https://via.placeholder.com/600x600?text=600x600+services-01.jpg"
+                        "https://images.pexels.com/photos/845451/pexels-photo-845451.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                       }
+                      style={{height:"100%",objectFit:'cover'}}
                     />
                   </div>
                   {/* featured-thumbnail end */}
@@ -149,11 +150,12 @@ export class Services extends Component {
                 {/* featured-imagebox */}
                 <div className="featured-imagebox featured-imagebox-services style1">
                   {/* featured-thumbnail */}
-                  <div className="featured-thumbnail">
+                  <div className="featured-thumbnail" style={{width:"300px"}}>
                     <img
                       className="img-fluid"
-                      src="https://via.placeholder.com/600x600?text=600x600+services-02.jpg"
+                      src="https://images.pexels.com/photos/8191964/pexels-photo-8191964.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                       alt="image"
+                      style={{height:"100%",objectFit:'cover'}}
                     />
                   </div>
                   {/* featured-thumbnail end */}
@@ -165,7 +167,7 @@ export class Services extends Component {
                     </div>
                     <div className="featured-desc">
                       <p>
-                        HireCo tens to accelerate innovation current and future
+                      Global Recruitment tens to accelerate innovation current and future
                         based solutions to support customers.
                       </p>
                     </div>
@@ -183,11 +185,12 @@ export class Services extends Component {
                 {/* featured-imagebox */}
                 <div className="featured-imagebox featured-imagebox-services style1">
                   {/* featured-thumbnail */}
-                  <div className="featured-thumbnail">
+                  <div className="featured-thumbnail" style={{width:"300px"}}>
                     <img
                       className="img-fluid"
-                      src="https://via.placeholder.com/600x600?text=600x600+services-03.jpg"
+                      src="https://images.pexels.com/photos/7651555/pexels-photo-7651555.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                       alt="image"
+                      style={{height:'100%'}}
                     />
                   </div>
                   {/* featured-thumbnail end */}
@@ -199,7 +202,7 @@ export class Services extends Component {
                     </div>
                     <div className="featured-desc">
                       <p>
-                        HireCo supplies variety of technical service including
+                      Global Recruitment supplies variety of technical service including
                         fabrication, design, and commissioning
                       </p>
                     </div>
@@ -217,11 +220,12 @@ export class Services extends Component {
                 {/* featured-imagebox */}
                 <div className="featured-imagebox featured-imagebox-services style1">
                   {/* featured-thumbnail */}
-                  <div className="featured-thumbnail">
+                  <div className="featured-thumbnail" style={{width:"300px"}}>
                     <img
                       className="img-fluid"
-                      src="https://via.placeholder.com/600x600?text=600x600+services-04.jpg"
+                      src="https://images.pexels.com/photos/8866719/pexels-photo-8866719.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                       alt="image"
+                      style={{height:'100%'}}
                     />
                   </div>
                   {/* featured-thumbnail end */}
@@ -251,11 +255,12 @@ export class Services extends Component {
                 {/* featured-imagebox */}
                 <div className="featured-imagebox featured-imagebox-services style1">
                   {/* featured-thumbnail */}
-                  <div className="featured-thumbnail">
+                  <div className="featured-thumbnail"  style={{width:"300px"}}>
                     <img
                       className="img-fluid"
-                      src="https://via.placeholder.com/600x600?text=600x600+services-05.jpg"
+                      src="https://images.pexels.com/photos/8866719/pexels-photo-8866719.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                       alt="image"
+                     
                     />
                   </div>
                   {/* featured-thumbnail end */}
@@ -267,7 +272,7 @@ export class Services extends Component {
                     </div>
                     <div className="featured-desc">
                       <p>
-                        We, HireCo specializes in recruiting executives and
+                        We, Global Recruitment specializes in recruiting executives and
                         other personnel for their client company
                       </p>
                     </div>
@@ -301,7 +306,7 @@ export class Services extends Component {
                     </div>
                     <div className="featured-desc">
                       <p>
-                        HireCo tens to accelerate innovation current and future
+                      Global Recruitment tens to accelerate innovation current and future
                         based solutions to support customers.
                       </p>
                     </div>
@@ -399,7 +404,7 @@ export class Services extends Component {
                   <div className="featured-thumbnail">
                     <img
                       className="img-fluid"
-                      src="https://via.placeholder.com/600x430?text=600x430+blog-01-600x430.jpg"
+                      src="https://images.pexels.com/photos/97050/pexels-photo-97050.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                       alt="blog-image"
                     />
                     <div className="ttm-box-post-date">
@@ -452,7 +457,7 @@ export class Services extends Component {
                   <div className="featured-thumbnail">
                     <img
                       className="img-fluid"
-                      src="https://via.placeholder.com/600x430?text=600x430+blog-02-600x430.jpg"
+                      src="https://images.pexels.com/photos/4057663/pexels-photo-4057663.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                       alt="blog-image"
                     />
                     <div className="ttm-box-post-date">
@@ -505,7 +510,7 @@ export class Services extends Component {
                   <div className="featured-thumbnail">
                     <img
                       className="img-fluid"
-                      src="https://via.placeholder.com/600x430?text=600x430+blog-03-600x430.jpg"
+                      src="https://images.pexels.com/photos/935979/pexels-photo-935979.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                       alt="blog-image"
                     />
                     <div className="ttm-box-post-date">
@@ -558,7 +563,7 @@ export class Services extends Component {
                   <div className="featured-thumbnail">
                     <img
                       className="img-fluid"
-                      src="https://via.placeholder.com/600x430?text=600x430+blog-04-600x430.jpg"
+                      src="https://images.pexels.com/photos/6335/man-coffee-cup-pen.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                       alt="blog-image"
                     />
                     <div className="ttm-box-post-date">
