@@ -115,12 +115,15 @@ export class Services extends Component {
                 {/* featured-imagebox */}
                 <div className="featured-imagebox featured-imagebox-services style1">
                   {/* featured-thumbnail */}
-                  <div className="featured-thumbnail" style={{width:"300px"}}>
+                  <div
+                    className="featured-thumbnail"
+                    style={{ width: "300px" }}
+                  >
                     <img
                       src={
                         "https://images.pexels.com/photos/845451/pexels-photo-845451.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                       }
-                      style={{height:"100%",objectFit:'cover'}}
+                      style={{ height: "100%", objectFit: "cover" }}
                     />
                   </div>
                   {/* featured-thumbnail end */}
@@ -150,12 +153,15 @@ export class Services extends Component {
                 {/* featured-imagebox */}
                 <div className="featured-imagebox featured-imagebox-services style1">
                   {/* featured-thumbnail */}
-                  <div className="featured-thumbnail" style={{width:"300px"}}>
+                  <div
+                    className="featured-thumbnail"
+                    style={{ width: "300px" }}
+                  >
                     <img
                       className="img-fluid"
                       src="https://images.pexels.com/photos/8191964/pexels-photo-8191964.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                       alt="image"
-                      style={{height:"100%",objectFit:'cover'}}
+                      style={{ height: "100%", objectFit: "cover" }}
                     />
                   </div>
                   {/* featured-thumbnail end */}
@@ -167,8 +173,8 @@ export class Services extends Component {
                     </div>
                     <div className="featured-desc">
                       <p>
-                      Global Recruitment tens to accelerate innovation current and future
-                        based solutions to support customers.
+                        Global Recruitment tens to accelerate innovation current
+                        and future based solutions to support customers.
                       </p>
                     </div>
                     <Link
@@ -185,12 +191,15 @@ export class Services extends Component {
                 {/* featured-imagebox */}
                 <div className="featured-imagebox featured-imagebox-services style1">
                   {/* featured-thumbnail */}
-                  <div className="featured-thumbnail" style={{width:"300px"}}>
+                  <div
+                    className="featured-thumbnail"
+                    style={{ width: "300px" }}
+                  >
                     <img
                       className="img-fluid"
                       src="https://images.pexels.com/photos/7651555/pexels-photo-7651555.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                       alt="image"
-                      style={{height:'100%'}}
+                      style={{ height: "100%" }}
                     />
                   </div>
                   {/* featured-thumbnail end */}
@@ -202,8 +211,8 @@ export class Services extends Component {
                     </div>
                     <div className="featured-desc">
                       <p>
-                      Global Recruitment supplies variety of technical service including
-                        fabrication, design, and commissioning
+                        Global Recruitment supplies variety of technical service
+                        including fabrication, design, and commissioning
                       </p>
                     </div>
                     <Link
@@ -220,12 +229,15 @@ export class Services extends Component {
                 {/* featured-imagebox */}
                 <div className="featured-imagebox featured-imagebox-services style1">
                   {/* featured-thumbnail */}
-                  <div className="featured-thumbnail" style={{width:"300px"}}>
+                  <div
+                    className="featured-thumbnail"
+                    style={{ width: "300px" }}
+                  >
                     <img
                       className="img-fluid"
                       src="https://images.pexels.com/photos/8866719/pexels-photo-8866719.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                       alt="image"
-                      style={{height:'100%'}}
+                      style={{ height: "100%" }}
                     />
                   </div>
                   {/* featured-thumbnail end */}
@@ -255,12 +267,14 @@ export class Services extends Component {
                 {/* featured-imagebox */}
                 <div className="featured-imagebox featured-imagebox-services style1">
                   {/* featured-thumbnail */}
-                  <div className="featured-thumbnail"  style={{width:"300px"}}>
+                  <div
+                    className="featured-thumbnail"
+                    style={{ width: "300px" }}
+                  >
                     <img
                       className="img-fluid"
                       src="https://images.pexels.com/photos/8866719/pexels-photo-8866719.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                       alt="image"
-                     
                     />
                   </div>
                   {/* featured-thumbnail end */}
@@ -272,8 +286,8 @@ export class Services extends Component {
                     </div>
                     <div className="featured-desc">
                       <p>
-                        We, Global Recruitment specializes in recruiting executives and
-                        other personnel for their client company
+                        We, Global Recruitment specializes in recruiting
+                        executives and other personnel for their client company
                       </p>
                     </div>
                     <Link
@@ -306,8 +320,8 @@ export class Services extends Component {
                     </div>
                     <div className="featured-desc">
                       <p>
-                      Global Recruitment tens to accelerate innovation current and future
-                        based solutions to support customers.
+                        Global Recruitment tens to accelerate innovation current
+                        and future based solutions to support customers.
                       </p>
                     </div>
                     <Link

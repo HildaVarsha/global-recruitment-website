@@ -19,7 +19,7 @@ const sliderElements = [
           className="testimonials ttm-testimonial-box-view-style2"
           role="group"
         >
-          <div className="" style={{display:'flex'}}>
+          <div className="" style={{ display: "flex" }}>
             <div className="testimonial-avatar">
               <div className="testimonial-img">
                 <img
@@ -37,9 +37,9 @@ const sliderElements = [
           <div className="testimonial-content">
             <blockquote className="testimonial-text">
               It has always been so easy to do work with any team member at
-              Global Recruitment. An effortless partnership. I was mentored by one of the
-              consultants in a time when I was very young and vulnerable in the
-              HR world. Recommend Global Recruitment!
+              Global Recruitment. An effortless partnership. I was mentored by
+              one of the consultants in a time when I was very young and
+              vulnerable in the HR world. Recommend Global Recruitment!
             </blockquote>
           </div>
         </div>
@@ -56,7 +56,7 @@ const sliderElements = [
           className="testimonials ttm-testimonial-box-view-style2"
           role="group"
         >
-          <div className="" style={{display:'flex'}}>
+          <div className="" style={{ display: "flex" }}>
             <div className="testimonial-avatar">
               <div className="testimonial-img">
                 <img
@@ -93,7 +93,7 @@ const sliderElements = [
           className="testimonials ttm-testimonial-box-view-style2"
           role="group"
         >
-          <div className="" style={{display:'flex'}}>
+          <div className="" style={{ display: "flex" }}>
             <div className="testimonial-avatar">
               <div className="testimonial-img">
                 <img
@@ -110,10 +110,10 @@ const sliderElements = [
           </div>
           <div className="testimonial-content">
             <blockquote className="testimonial-text">
-              I have been working with Global Recruitment, for the past month. This was my
-              first experience working with a recruiter and it has been amazing.
-              I couldn’t have asked for more. She took into account my CV and
-              experience and recommended.
+              I have been working with Global Recruitment, for the past month.
+              This was my first experience working with a recruiter and it has
+              been amazing. I couldn’t have asked for more. She took into
+              account my CV and experience and recommended.
             </blockquote>
           </div>
         </div>
@@ -130,7 +130,7 @@ const sliderElements = [
           className="testimonials ttm-testimonial-box-view-style2"
           role="group"
         >
-         <div className="" style={{display:'flex'}}>
+          <div className="" style={{ display: "flex" }}>
             <div className="testimonial-avatar">
               <div className="testimonial-img">
                 <img
@@ -147,8 +147,8 @@ const sliderElements = [
           </div>
           <div className="testimonial-content">
             <blockquote className="testimonial-text">
-            Global Recruitment has been the ultimate recruitment professional throughout
-              the entire process. It has kept to his word regarding
+              Global Recruitment has been the ultimate recruitment professional
+              throughout the entire process. It has kept to his word regarding
               communicating with me and with all other commitments made. I have
               found them be extremely helpful.
             </blockquote>
@@ -167,7 +167,7 @@ const sliderElements = [
           className="testimonials ttm-testimonial-box-view-style2"
           role="group"
         >
-           <div className="" style={{display:'flex'}}>
+          <div className="" style={{ display: "flex" }}>
             <div className="testimonial-avatar">
               <div className="testimonial-img">
                 <img
@@ -457,8 +457,8 @@ export class Home2 extends Component {
                   <div className="featured-content">
                     <div className="featured-desc">
                       <p>
-                      Global Recruitment tens to accelerate innovation current and future
-                        based solutions to support
+                        Global Recruitment tens to accelerate innovation current
+                        and future based solutions to support
                       </p>
                     </div>
                   </div>
@@ -1193,7 +1193,7 @@ export class Home2 extends Component {
                   <div className="featured-thumbnail">
                     <img
                       className="img-fluid"
-                      style={{width:'60px'}}
+                      style={{ width: "60px" }}
                       src="https://images.pexels.com/photos/1369476/pexels-photo-1369476.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                       alt="blog-image"
                     />
@@ -1248,7 +1248,7 @@ export class Home2 extends Component {
                       className="img-fluid"
                       src="https://images.pexels.com/photos/1577882/pexels-photo-1577882.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                       alt="blog-image"
-                      style={{width:'80px'}}
+                      style={{ width: "80px" }}
                     />
                     <div className="ttm-box-post-date">
                       <span className="ttm-entry-date">
