@@ -26,7 +26,7 @@ export class blog_details extends Component {
                     <div className="ttm-post-featured">
                       <img
                         className="img-fluid"
-                        src="https://via.placeholder.com/1200x800?text=1200x800+blog-01-1200x800.jpg"
+                        src="https://images.pexels.com/photos/5439470/pexels-photo-5439470.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                         alt="blog-img"
                       />
                     </div>
@@ -38,8 +38,7 @@ export class blog_details extends Component {
                       <div className="post-meta">
                         <span className="ttm-meta-line author">
                           <img
-                            src="https://via.placeholder.com/294x190?text=author-img-294x190.jpg
-"
+                            src="https://images.pexels.com/photos/1586996/pexels-photo-1586996.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                             className="img-fluid"
                             height="80"
                             width="80"
@@ -58,69 +57,53 @@ export class blog_details extends Component {
                     <div className="entry-content">
                       <div className="ttm-box-desc-text">
                         <p>
-                          Lorem Ipsum is simply dummy text of the printting and
-                          typesetting industry. Lorem Ipsum contary io on
-                          hasbeen the industry’s standard dummy text ever since
-                          the 1500s, when an unknown printer took a galley of
-                          type and scrambled it to make a type specimen book.
+                        Welcome to our Global Recruitment Hub! In today's interconnected world, businesses thrive on diverse talent from across the globe. Our blog explores the latest trends, insights, and strategies in international hiring, helping companies and job seekers navigate the evolving job market. From visa sponsorship updates to remote work opportunities, we provide valuable resources to connect top talent with leading employers worldwide. Stay informed, stay ahead!
                         </p>
 
                         <p>
-                          Contary typesetting industry. Lorem Ipsum on hasbeen
-                          the industry’s standard live youmgdummy text ever the
-                          1500s, when an unknown printer took a galley of type
-                          and scrambled.
+                        The global recruitment landscape is constantly evolving, shaping new opportunities for businesses and professionals alike. Since the early days of workforce expansion, companies have sought skilled talent from diverse backgrounds to drive innovation and growth. 
                         </p>
 
                         <blockquote>
                           <div className="qoute-text">
-                            Mpsum is simply dummy text of the printing and
-                            conatary typesg industy. Lorem Ipsum on hasbeen the
-                            industry’s standard dummy te
+                          Our platform is dedicated to connecting top-tier professionals with organizations worldwide, ensuring seamless hiring experiences and career advancements. Stay updated with industry insights, hiring trends, and expert advice to navigate the world of global recruitment successfully.
                           </div>
                           <cite>Alex Sam Martin</cite>
                         </blockquote>
 
                         <p>
-                          Contary is simply dummy text of the printting and
-                          contary to popular typesetti dustry. Lorem Ipsum on
-                          has been the industry’s standard dummy text ever since
-                          the 1500s, when loream an unknown printer took a
-                          galley of type and scrambled it to make a type
-                          specimen book.
+                        Contrary to popular belief, the world of global recruitment is more dynamic than ever. As industries expand across borders, the demand for skilled professionals continues to rise. Our blog delves into key hiring trends, workforce mobility, and expert insights to help businesses and job seekers navigate the international job market. Whether you're an employer looking for top talent or a professional seeking new career opportunities, stay informed with our latest updates and strategies for success.
                         </p>
 
                         <div className="d-md-flex align-items-center mb-20">
-                          <img
+                          {/* <img
                             className="img-fluid alignleft"
-                            src="https://via.placeholder.com/332x324?text=single-img-07-332x324.jpg
+                            src="https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2
 "
                             alt="single-07"
-                          />
+                          /> */}
                           <div className="pt-10 pb-15">
                             <h3>Compatible Data</h3>
                             <p>
-                              Lorem ipsum dolor sit contary amet, consectetur
-                              adipiscing elit, sed do loream eiusmod tempor
-                              incididu labore et dolore magna aliqua.{" "}
+                            Global recruitment is transforming the way businesses connect with top talent. In today's competitive job market, companies seek skilled professionals who can drive innovation and growth.{" "}
                             </p>
                             <ul className="ttm-list ttm-list-style-icon ttm-list-icon-color-skincolor">
                               <li>
                                 <i className="fas fa-long-arrow-alt-right"></i>
                                 <div className="ttm-list-li-content">
-                                  Quisque aliquet nibh sit amet lectus auctor.
+                                Our platform provides insights into international hiring trends,
                                 </div>
                               </li>
                               <li>
                                 <i className="fas fa-long-arrow-alt-right"></i>
                                 <div className="ttm-list-li-content">
-                                  Nulla at metus ultricies, placerat augue sed.
+                                Explore expert advice and industry updates to navigate the evolving world of recruitment with confidence.
                                 </div>
                               </li>
                               <li>
                                 <i className="fas fa-long-arrow-alt-right"></i>
                                 <div className="ttm-list-li-content">
-                                  Curabitur mollis ex vestibulum, ullamcorper.
+                                Workforce mobility, and career opportunities, helping both employers and job seekers stay ahead
                                 </div>
                               </li>
                               <li>
@@ -138,7 +121,7 @@ export class blog_details extends Component {
                           Large selection of rooms loram and apartments for
                           every taste and for every need. Qualified staff,
                           delicious dinners, bar, drinks, relaxation area and
-                          underground loream ipsum parking.
+                          underground parking.
                         </p>
                         <div className="social-media-block">
                           <div className="d-sm-flex justify-content-between">
@@ -322,7 +305,7 @@ export class blog_details extends Component {
                         <Link to={"/blog_details"}>
                           <img
                             className="img-fluid"
-                            src="https://via.placeholder.com/150x150?text=150x150+b_thumbb-01.jpg"
+                            src="https://images.pexels.com/photos/5439428/pexels-photo-5439428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                             alt="post-img"
                           />
                         </Link>
@@ -337,7 +320,7 @@ export class blog_details extends Component {
                         <Link to={"/blog_details"}>
                           <img
                             className="img-fluid"
-                            src="https://via.placeholder.com/150x150?text=150x150+b_thumbb-02.jpg"
+                            src="https://images.pexels.com/photos/5439453/pexels-photo-5439453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                             alt="post-img"
                           />
                         </Link>
@@ -353,7 +336,7 @@ export class blog_details extends Component {
                         <Link to={"/blog_details"}>
                           <img
                             className="img-fluid"
-                            src="https://via.placeholder.com/150x150?text=150x150+b_thumbb-03.jpg"
+                            src="https://images.pexels.com/photos/8636626/pexels-photo-8636626.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                             alt="post-img"
                           />
                         </Link>

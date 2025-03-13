@@ -24,20 +24,14 @@ export class Services_details extends Component {
                   <div className="ttm_single_image-wrapper">
                     <img
                       className="img-fluid"
-                      src="https://via.placeholder.com/1200x800?text=1200x800+services-01-1200x800.jpg"
+                      src="https://images.pexels.com/photos/1586996/pexels-photo-1586996.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                       alt="services-img"
                     />
                   </div>
                   <div className="ttm-service-description mt-40">
                     <h3 className="mb-20">Description For Our Service</h3>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Quis ipsum suspendisse ultrices gravida. Risus
-                      commodo viverra maecenas accumsan lacus vel facilisis. m
-                      suspendisse ultrices gravida. Risus commodo vivm
-                      suspendisse ultrices gravida. ipsum suspendisse ultrices
-                      gravida.
+                    In today’s interconnected world, businesses are no longer limited by geography when searching for top talent. Our recruitment services are designed to bridge the gap between employers and skilled professionals worldwide. Whether you are looking for local hires or international candidates, we provide tailored solutions to help you build a diverse and high-performing team.
                     </p>
                     <div className="row">
                       <div className="col-lg-6 col-md-6 col-sm-6">
@@ -54,8 +48,7 @@ export class Services_details extends Component {
                             </div>
                             <div className="featured-desc">
                               <p>
-                                Lorem Ipsum simply dummy text the printing and
-                                typeing industry. Kum has been the Hjuyus
+                              Connecting businesses with skilled professionals worldwide.
                               </p>
                             </div>
                           </div>
@@ -76,8 +69,7 @@ export class Services_details extends Component {
                             </div>
                             <div className="featured-desc">
                               <p>
-                                Lorem Ipsum simply dummy text the printing and
-                                typeing industry. Kum has been the Hjuyus
+                              Visa Sponsorship Assistance – Helping companies and candidates navigate work visa processes.
                               </p>
                             </div>
                           </div>
@@ -98,8 +90,7 @@ export class Services_details extends Component {
                             </div>
                             <div className="featured-desc">
                               <p>
-                                Lorem Ipsum simply dummy text the printing and
-                                typeing industry. Kum has been the Hjuyus
+                              Employer Branding & HR Consulting – Helping organizations attract and retain top talent.
                               </p>
                             </div>
                           </div>
@@ -120,8 +111,7 @@ export class Services_details extends Component {
                             </div>
                             <div className="featured-desc">
                               <p>
-                                Lorem Ipsum simply dummy text the printing and
-                                typeing industry. Kum has been the Hjuyus
+                              Remote Hiring Solutions – Enabling companies to build international remote teams.
                               </p>
                             </div>
                           </div>
@@ -134,28 +124,27 @@ export class Services_details extends Component {
                       <div className="col-md-6">
                         <h4>The Best Aquarist You Can Make is In Your Self</h4>
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipis ing
-                          elit, sed do eiusmod tempor incidi.
+                        Job Matching & Career Guidance – Personalized job recommendations and career advice.
                         </p>
                         <ul className="ttm-list ttm-list-style-square ttm-list-icon-color-skincolor mb-30">
                           <li>
                             <div className="ttm-list-li-content">
-                              Lorem ipsum dolor sit amet, consectetur adipi
+                            Hiring global talent comes with challenges
                             </div>
                           </li>
                           <li>
                             <div className="ttm-list-li-content">
-                              There are many variations of passages of Lorem
+                              There are many variations of passages 
                             </div>
                           </li>
                           <li>
                             <div className="ttm-list-li-content">
-                              The standard chunk of Lorem Ipsum used since
+                            Personalized Job Matching – Recommending the best job opportunities based on skills and experience.
                             </div>
                           </li>
                           <li>
                             <div className="ttm-list-li-content">
-                              Contrary to popular belief, Lorem Ipsum
+                            Employer Branding Support – Assisting companies in building strong employer brands to attract top talent.
                             </div>
                           </li>
                         </ul>
@@ -171,10 +160,7 @@ export class Services_details extends Component {
                       </div>
                       <div className="col-lg-12">
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt utlabore et
-                          dolore magna aliqua. Quis ipsum suspendisse ultrices
-                          gravida. Risus com{" "}
+                        For job seekers, navigating the job market can be overwhelming. We offer personalized job matching services based on your skills, experience, and career aspirations.
                         </p>
                       </div>
                     </div>

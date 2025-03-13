@@ -191,18 +191,13 @@ export class Job_details extends Component {
                       </div>
                       <div className="desc">
                         <p>
-                          “Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua. Quis ipsum suspendisse ultrices
-                          gravida. Risus commodo viverra maecenas accumsan lacus
-                          vel facilisis. ”
+                          “We are looking for a skilled Frontend Developer with expertise in React.js to join our dynamic team. As a Frontend Developer, you will work closely with designers and backend developers to build and maintain high-quality web applications. ”
                         </p>
                         <p>
-                          “Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua. Quis ipsum suspendisse ultrices
-                          gravida. Risus commodo viverra maecenas accumsan lacus
-                          vel facilisis. ”
+                        Key Responsibilities:
+Develop and maintain responsive and scalable web applications using React.js.
+Collaborate with UI/UX designers to implement intuitive and user-friendly interfaces.
+
                         </p>
                       </div>
                     </div>

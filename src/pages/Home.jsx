@@ -56,97 +56,175 @@ export class Home extends Component {
       ],
     };
     const jobCategories = [
-      { title: "Finance", jobs: 85, role: "Financial Branch Manager", image: "https://images.pexels.com/photos/14725368/pexels-photo-14725368.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" },
-      { title: "Technology", jobs: 110, role: "Software, Hardware, SEO", image: "https://images.pexels.com/photos/11459428/pexels-photo-11459428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" },
-      { title: "Agriculture", jobs: 100, role: "Agricultural Food Scientist", image: "https://images.pexels.com/photos/16095185/pexels-photo-16095185/free-photo-of-close-up-of-an-ouroboros-ring-on-a-ring-box.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" },
-      { title: "Construction", jobs: 120, role: "The Marketing Coordinator", image: "https://images.pexels.com/photos/11035546/pexels-photo-11035546.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" },
-      { title: "Manufacturing", jobs: 100, role: "Quality Control Inspector", image: "https://images.pexels.com/photos/11479856/pexels-photo-11479856.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" },
-      { title: "Production", jobs: 90, role: "Assistant Plant Manager", image: "https://images.pexels.com/photos/5852135/pexels-photo-5852135.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" },
-      { title: "Transport", jobs: 125, role: "Cargo and Freight Agents", image: "https://images.pexels.com/photos/18868628/pexels-photo-18868628/free-photo-of-mugs-with-logo.jpeg?auto=compress&cs=tinysrgb&w=800" },
-      { title: "Insurance", jobs: 110, role: "Corporate Finance Officer", image: "https://images.pexels.com/photos/413279/pexels-photo-413279.jpeg?auto=compress&cs=tinysrgb&w=800" },
+      {
+        title: "Finance",
+        jobs: 85,
+        role: "Financial Branch Manager",
+        image:
+          "https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      },
+      {
+        title: "Technology",
+        jobs: 110,
+        role: "Software, Hardware, SEO",
+        image:
+          "https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      },
+      {
+        title: "Agriculture",
+        jobs: 100,
+        role: "Agricultural Food Scientist",
+        image:
+          "https://images.pexels.com/photos/2255801/pexels-photo-2255801.jpeg?auto=compress&cs=tinysrgb&w=600",
+      },
+      {
+        title: "Construction",
+        jobs: 120,
+        role: "The Marketing Coordinator",
+        image:
+          "https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      },
+      {
+        title: "Manufacturing",
+        jobs: 100,
+        role: "Quality Control Inspector",
+        image:
+          "https://images.pexels.com/photos/2628105/pexels-photo-2628105.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      },
+      {
+        title: "Production",
+        jobs: 90,
+        role: "Assistant Plant Manager",
+        image:
+          "https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      },
+      {
+        title: "Transport",
+        jobs: 125,
+        role: "Cargo and Freight Agents",
+        image:
+          "https://images.pexels.com/photos/1117211/pexels-photo-1117211.jpeg?auto=compress&cs=tinysrgb&w=600",
+      },
+      {
+        title: "Insurance",
+        jobs: 110,
+        role: "Corporate Finance Officer",
+        image:
+          "https://images.pexels.com/photos/7688374/pexels-photo-7688374.jpeg?auto=compress&cs=tinysrgb&w=600",
+      },
     ];
     const JobCategoryCard = ({ title, jobs, role, image }) => (
-  <div className="col-lg-3 col-md-6 col-sm-6 h-[100px]" style={{height:'300px',marginBottom:'80px'}}>
-    <div className="featured-icon-box icon-align-top-content style1 h-44">
-      <div className="ttm-box-view-overlay">
-        <div className="ttm-col-bgimage-yes ttm-bg h-44" style={{ backgroundImage: `url(${image})` }}></div>
-      </div>
-      <div className="featured-icon">
-        <img className="img-fluid w-12 h-12" src={image} alt={title} style={{height:'50px'}}/>
-      </div>
-      <div className="featured-content">
-        <h3>{title}</h3>
-        <p>{jobs} Jobs<br />{role}</p>
-        <Link className="ttm-btn btn-inline ttm-btn-size-md ttm-btn-color-dark" to="/job_list">
-          Apply Jobs!
-        </Link>
-      </div>
-    </div>
-  </div>
-);
-const services = [
-  {
-    title: "Manpower Supply",
-    description:
-      "We are quality personnel experts to the fields of expertise that needed for all kind of recruit projects",
-  },
-  {
-    title: "Forte Acquisition",
-    description:
-      "Global Recruitment tends to accelerate innovation current and future based solutions to support customers.",
-  },
-  {
-    title: "Technical Services",
-    description:
-      "Global Recruitment supplies a variety of technical services including fabrication, design, and commissioning.",
-  },
-  {
-    title: "Human Resource",
-    description:
-      "The most daunting task of a Human Resource department, which must need to meet deadlines.",
-  },
-  {
-    title: "Executive Search",
-    description:
-      "We, Global Recruitment specializes in recruiting executives and other personnel for their client company.",
-  },
-  {
-    title: "Retained Search",
-    description:
-      "Global Recruitment tends to accelerate innovation current and future based solutions to support customers.",
-  },
-];
-const ServiceCard = ({ title, description }) => (
-  <div className="col-md-12" >
-    <div className="featured-imagebox featured-imagebox-services style1">
-      <div className="featured-thumbnail">
-        <img
-          className="img-fluid"
-          src="https://images.pexels.com/photos/20318300/pexels-photo-20318300/free-photo-of-logo-of-mcdonalds-on-the-street.jpeg?auto=compress&cs=tinysrgb&w=800"
-          alt="Service Image"
-          style={{width:'300px'}}
-        />
-      </div>
-      <div className="featured-content">
-        <div className="featured-title">
-          <h3>
-            <Link to="/services_details">{title}</Link>
-          </h3>
+      <div
+        className="col-lg-3 col-md-6 col-sm-6 h-[100px]"
+        style={{ height: "300px", marginBottom: "80px" }}
+      >
+        <div className="featured-icon-box icon-align-top-content style1 h-44">
+          <div className="ttm-box-view-overlay">
+            <div
+              className="ttm-col-bgimage-yes ttm-bg h-44"
+              style={{ backgroundImage: `url(${image})` }}
+            ></div>
+          </div>
+          <div className="featured-icon">
+            <img
+              className="img-fluid w-12 h-12"
+              src={image}
+              alt={title}
+              style={{ height: "50px" }}
+            />
+          </div>
+          <div className="featured-content">
+            <h3>{title}</h3>
+            <p>
+              {jobs} Jobs
+              <br />
+              {role}
+            </p>
+            <Link
+              className="ttm-btn btn-inline ttm-btn-size-md ttm-btn-color-dark"
+              to="/job_list"
+            >
+              Apply Jobs!
+            </Link>
+          </div>
         </div>
-        <div className="featured-desc">
-          <p>{description}</p>
-        </div>
-        <Link
-          className="ttm-btn btn-inline ttm-btn-size-md ttm-btn-color-darkgrey"
-          to="/services_details"
-        >
-          Read more!
-        </Link>
       </div>
-    </div>
-  </div>
-);
-
+    );
+    // https://images.pexels.com/photos/20318300/pexels-photo-20318300/free-photo-of-logo-of-mcdonalds-on-the-street.jpeg?auto=compress&cs=tinysrgb&w=800
+    const services = [
+      {
+        title: "Manpower Supply",
+        image:
+          "https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg?auto=compress&cs=tinysrgb&w=800",
+        description:
+          "We are quality personnel experts to the fields of expertise that needed for all kind of recruit projects",
+      },
+      {
+        title: "Forte Acquisition",
+        image:
+          "https://images.pexels.com/photos/7641900/pexels-photo-7641900.jpeg?auto=compress&cs=tinysrgb&w=800",
+        description:
+          "Global Recruitment tends to accelerate innovation current and future based solutions to support customers.",
+      },
+      {
+        title: "Technical Services",
+        image:
+          "https://images.pexels.com/photos/3823425/pexels-photo-3823425.jpeg?auto=compress&cs=tinysrgb&w=800",
+        description:
+          "Global Recruitment supplies a variety of technical services including fabrication, design, and commissioning.",
+      },
+      {
+        title: "Human Resource",
+        image:
+          "https://images.pexels.com/photos/3184416/pexels-photo-3184416.jpeg?auto=compress&cs=tinysrgb&w=800",
+        description:
+          "The most daunting task of a Human Resource department, which must need to meet deadlines.",
+      },
+      {
+        title: "Executive Search",
+        image:
+          "https://images.pexels.com/photos/7644155/pexels-photo-7644155.jpeg?auto=compress&cs=tinysrgb&w=800",
+        description:
+          "We, Global Recruitment specializes in recruiting executives and other personnel for their client company.",
+      },
+      {
+        title: "Retained Search",
+        image:
+          "https://images.pexels.com/photos/196655/pexels-photo-196655.jpeg?auto=compress&cs=tinysrgb&w=800",
+        description:
+          "Global Recruitment tends to accelerate innovation current and future based solutions to support customers.",
+      },
+    ];
+    const ServiceCard = ({ title, description, image }) => (
+      <div className="col-md-12">
+        <div className="featured-imagebox featured-imagebox-services style1">
+          <div className="featured-thumbnail">
+            <img
+              className="img-fluid"
+              src={image}
+              alt="Service Image"
+              style={{ width: "300px" }}
+            />
+          </div>
+          <div className="featured-content">
+            <div className="featured-title">
+              <h3>
+                <Link to="/services_details">{title}</Link>
+              </h3>
+            </div>
+            <div className="featured-desc">
+              <p>{description}</p>
+            </div>
+            <Link
+              className="ttm-btn btn-inline ttm-btn-size-md ttm-btn-color-darkgrey"
+              to="/services_details"
+            >
+              Read more!
+            </Link>
+          </div>
+        </div>
+      </div>
+    );
 
     return (
       <div className="site-main">
@@ -157,60 +235,69 @@ const ServiceCard = ({ title, description }) => (
         {/* Banner end */}
 
         {/* features-section */}
-      
+
         <section className="ttm-row features-section clearfix">
-    <div className="container">
-      <div className="row">
-        <div className="col-lg-12 text-center">
-          <h3>Get <span className="text-theme-SkinColor">Appropriate</span></h3>
-          <h2 className="title">Search Job By Industry</h2>
-        </div>
-      </div>
-      <div className="row row-equal-height mb_10">
-        {jobCategories.map((category, index) => (
-          <JobCategoryCard key={index} {...category} />
-        ))}
-      </div>
-    </div>
-  </section>
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12 text-center">
+                <h3>
+                  Get <span className="text-theme-SkinColor">Appropriate</span>
+                </h3>
+                <h2 className="title">Search Job By Industry</h2>
+              </div>
+            </div>
+            <div className="row row-equal-height mb_10">
+              {jobCategories.map((category, index) => (
+                <JobCategoryCard key={index} {...category} />
+              ))}
+            </div>
+          </div>
+        </section>
         {/* features-section end */}
 
         {/* services-section */}
         <section
-    className="ttm-row services-section bg-img1 bg-theme-GreyColor ttm-bg ttm-bgimage-yes clearfix"
-    style={{
-      backgroundImage:
-        "url(https://images.pexels.com/photos/6186/vintage-mockup-old-logo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)",
-    }}
-  >
-    <div className="container">
-      <div className="row">
-        <div className="col-lg-11">
-          <div className="section-title style2 mb-0">
-            <div className="title-header">
-              <h3>
-                Classic <span className="text-theme-SkinColor">Service</span>
-              </h3>
-              <h2 className="title">We Understand Needs</h2>
+          className="ttm-row services-section bg-img1 bg-theme-GreyColor ttm-bg ttm-bgimage-yes clearfix"
+          style={{
+            backgroundImage:
+              "url(https://images.pexels.com/photos/6186/vintage-mockup-old-logo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)",
+          }}
+        >
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-11">
+                <div className="section-title style2 mb-0">
+                  <div className="title-header">
+                    <h3>
+                      Classic{" "}
+                      <span className="text-theme-SkinColor">Service</span>
+                    </h3>
+                    <h2 className="title">We Understand Needs</h2>
+                  </div>
+                  <div className="title-desc">
+                    <p>
+                      A process that involves everything from
+                      <span className="text-theme-SkinColor">
+                        {" "}
+                        identifying,
+                      </span>
+                      attracting, shortlisting, interviewing, selecting, hiring,
+                      screening & onboarding employees.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="title-desc">
-              <p>
-                A process that involves everything from
-                <span className="text-theme-SkinColor"> identifying,</span>
-                attracting, shortlisting, interviewing, selecting, hiring,
-                screening & onboarding employees.
-              </p>
-            </div>
+            <Slider
+              className="row slick_slider slick-arrows-style2 pt-20 mb_10"
+              {...sliderSettings}
+            >
+              {services.map((service, index) => (
+                <ServiceCard key={index} {...service} />
+              ))}
+            </Slider>
           </div>
-        </div>
-      </div>
-      <Slider className="row slick_slider slick-arrows-style2 pt-20 mb_10" {...sliderSettings}>
-        {services.map((service, index) => (
-          <ServiceCard key={index} {...service} />
-        ))}
-      </Slider>
-    </div>
-  </section>
+        </section>
         {/* services-section end */}
 
         {/* about-section */}
@@ -323,10 +410,10 @@ const ServiceCard = ({ title, description }) => (
                     </div>
                     <div className="title-desc">
                       <p>
-                      Global Recruitment has over 30 years experience of Financial,
-                        Marketing and Business Solutions expertise. Helps
-                        businesses improve their processes, products, services.
-                        Serve as the intermediary between businesses.
+                        Global Recruitment has over 30 years experience of
+                        Financial, Marketing and Business Solutions expertise.
+                        Helps businesses improve their processes, products,
+                        services. Serve as the intermediary between businesses.
                       </p>
                     </div>
                   </div>
@@ -607,7 +694,11 @@ const ServiceCard = ({ title, description }) => (
                           className="img-fluid"
                           src="https://images.pexels.com/photos/30994243/pexels-photo-30994243/free-photo-of-stylish-man-in-urban-winter-street-setting.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                           alt="testimonial-img"
-                          style={{width:'50px',height:'50px',objectFit:'cover'}}
+                          style={{
+                            width: "50px",
+                            height: "50px",
+                            objectFit: "cover",
+                          }}
                         />
                       </div>
                     </div>
@@ -654,7 +745,11 @@ const ServiceCard = ({ title, description }) => (
                           className="img-fluid"
                           src="https://images.pexels.com/photos/30994243/pexels-photo-30994243/free-photo-of-stylish-man-in-urban-winter-street-setting.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                           alt="testimonial-img"
-                          style={{width:'50px',height:'50px',objectFit:'cover'}}
+                          style={{
+                            width: "50px",
+                            height: "50px",
+                            objectFit: "cover",
+                          }}
                         />
                       </div>
                     </div>
@@ -701,7 +796,11 @@ const ServiceCard = ({ title, description }) => (
                           className="img-fluid"
                           src="https://images.pexels.com/photos/30994243/pexels-photo-30994243/free-photo-of-stylish-man-in-urban-winter-street-setting.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                           alt="testimonial-img"
-                          style={{width:'50px',height:'50px',objectFit:'cover'}}
+                          style={{
+                            width: "50px",
+                            height: "50px",
+                            objectFit: "cover",
+                          }}
                         />
                       </div>
                     </div>
@@ -744,11 +843,15 @@ const ServiceCard = ({ title, description }) => (
                   <div className="testimonial-bottom">
                     <div className="testimonial-avatar">
                       <div className="testimonial-img">
-                      <img
+                        <img
                           className="img-fluid"
                           src="https://images.pexels.com/photos/30994243/pexels-photo-30994243/free-photo-of-stylish-man-in-urban-winter-street-setting.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                           alt="testimonial-img"
-                          style={{width:'50px',height:'50px',objectFit:'cover'}}
+                          style={{
+                            width: "50px",
+                            height: "50px",
+                            objectFit: "cover",
+                          }}
                         />
                       </div>
                     </div>

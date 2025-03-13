@@ -23,15 +23,15 @@ export class Contact_01 extends Component {
                 <div className="featured-imagebox box-shadow">
                   <div className="featured-thumbnail">
                     <img
-                      className="img-fluid"
-                      src="https://via.placeholder.com/720x600?text=720x600+country-01.jpg"
+                      className="img-fluid location-icon"
+                      src="\images\bg-image\London.jpg"
                       alt="country-01"
                     />
                   </div>
                   <div className="featured-content p-30">
                     <div className="featured-title">
                       <h3>
-                        <Link to={"/"}>United States</Link>
+                        <Link to={"/"}>London</Link>
                       </h3>
                     </div>
                     <div className="featured-desc">
@@ -39,20 +39,21 @@ export class Contact_01 extends Component {
                         <li className="pb-5">
                           <i className="fas fa-map-marker-alt"></i>
                           <div className="ttm-list-li-content">
-                            Addres: Newyork Envanto 45 HQ
+                            Addres: 292-294 Plashet Grove, London, England, E6
+                            1DQ.
                           </div>
                         </li>
                         <li className="pb-5">
                           <i className="fas fa-phone-alt"></i>
                           <div className="ttm-list-li-content">
-                            Call Us:123 456 7890
+                            Call Us:+44-20 3490 9639
                           </div>
                         </li>
                         <li>
                           <i className="fa fa-envelope"></i>
                           <div className="ttm-list-li-content">
-                            <Link to="mailto:info@example.com">
-                              Email:info@example.com
+                            <Link to="mailto:info@theglobalrecruitment.com">
+                              Email:info@theglobalrecruitment.com
                             </Link>
                           </div>
                         </li>
@@ -65,15 +66,15 @@ export class Contact_01 extends Component {
                 <div className="featured-imagebox box-shadow">
                   <div className="featured-thumbnail">
                     <img
-                      className="img-fluid"
-                      src="https://via.placeholder.com/720x600?text=720x600+country-02.jpg"
+                      className="img-fluid location-icon"
+                      src="\images\bg-image\Dubhai.jpg"
                       alt="country-02"
                     />
                   </div>
                   <div className="featured-content p-30">
                     <div className="featured-title">
                       <h3>
-                        <Link to={"/"}>Australia</Link>
+                        <Link to={"/"}>Dubai</Link>
                       </h3>
                     </div>
                     <div className="featured-desc">
@@ -81,20 +82,21 @@ export class Contact_01 extends Component {
                         <li className="pb-5">
                           <i className="fas fa-map-marker-alt"></i>
                           <div className="ttm-list-li-content">
-                            Addres: Newyork Envanto 45 HQ
+                            Addres: AI Saaha Offices C Old Town, Downtown Dubai
+                            Level 2 Office no.W202 PO BOX 282615, Dubai.
                           </div>
                         </li>
                         <li className="pb-5">
                           <i className="fas fa-phone-alt"></i>
                           <div className="ttm-list-li-content">
-                            Call Us:123 456 7890
+                            Call Us:+44-20 3490 9639
                           </div>
                         </li>
                         <li>
                           <i className="fa fa-envelope"></i>
                           <div className="ttm-list-li-content">
-                            <Link to="mailto:info@example.com">
-                              Email:info@example.com
+                            <Link to="mailto:info@theglobalrecruitment.com">
+                              Email:info@theglobalrecruitment.com
                             </Link>
                           </div>
                         </li>
@@ -107,15 +109,15 @@ export class Contact_01 extends Component {
                 <div className="featured-imagebox box-shadow">
                   <div className="featured-thumbnail">
                     <img
-                      className="img-fluid"
-                      src="https://via.placeholder.com/720x600?text=720x600+country-03.jpg"
+                      className="img-fluid location-icon"
+                      src="\images\bg-image\India.jpg"
                       alt="country-03"
                     />
                   </div>
                   <div className="featured-content p-30">
                     <div className="featured-title">
                       <h3>
-                        <Link to={"/"}>Canada</Link>
+                        <Link to={"/"}>India</Link>
                       </h3>
                     </div>
                     <div className="featured-desc">
@@ -123,20 +125,21 @@ export class Contact_01 extends Component {
                         <li className="pb-5">
                           <i className="fas fa-map-marker-alt"></i>
                           <div className="ttm-list-li-content">
-                            Addres: Newyork Envanto 45 HQ
+                            Addres: 2-48/5/6, Vyshnavi's Cynosure, Gachibowli
+                            Road, Hyderabad, Telangana 500032, India.
                           </div>
                         </li>
                         <li className="pb-5">
                           <i className="fas fa-phone-alt"></i>
                           <div className="ttm-list-li-content">
-                            Call Us:123 456 7890
+                            Call Us:+44-20 3490 9639
                           </div>
                         </li>
                         <li>
                           <i className="fa fa-envelope"></i>
                           <div className="ttm-list-li-content">
-                            <Link to="mailto:info@example.com">
-                              Email:info@example.com
+                            <Link to="mailto:info@theglobalrecruitment.com">
+                              Email:info@theglobalrecruitment.com
                             </Link>
                           </div>
                         </li>

@@ -7,9 +7,8 @@ import {
   MDBCollapse,
   MDBNavbarNav,
   MDBNavbarItem,
-  MDBNavbarLink,
 } from "mdb-react-ui-kit";
-import { BrowserRouter as Router } from "react-router-dom";
+import { Link, BrowserRouter as Router } from "react-router-dom";
 
 const MobileMenu = () => {
   const [showNav, setShowNav] = useState(false);
@@ -29,19 +28,29 @@ const MobileMenu = () => {
           <MDBCollapse show={showNav} navbar>
             <MDBNavbarNav className="me-auto mb-2 mb-lg-0">
               <MDBNavbarItem>
-                <MDBNavbarLink href="/">Home</MDBNavbarLink>
+                <Link className="m-2" to="/">
+                  Home
+                </Link>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <MDBNavbarLink href="/job_list">Job List</MDBNavbarLink>
+                <Link className="m-2" to="/job_list">
+                  Job List
+                </Link>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <MDBNavbarLink href="/about_us">About Us</MDBNavbarLink>
+                <Link className="m-2" to="/about_us">
+                  About Us
+                </Link>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <MDBNavbarLink href="/services">Services</MDBNavbarLink>
+                <Link className="m-2" to="/services">
+                  Services
+                </Link>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <MDBNavbarLink href="/Blog_details">Blog</MDBNavbarLink>
+                <Link className="m-2" to="/Blog_details">
+                  Blog
+                </Link>
               </MDBNavbarItem>
             </MDBNavbarNav>
           </MDBCollapse>
