@@ -347,7 +347,7 @@ export class Job_list extends Component {
                         <div className="featured-bottom">
                           <div className="job-meta">
                             <span>
-                              <i className="fa fa-map-marker-alt"></i>California
+                              <i className="fa fa-map-marker-alt"></i>London
                             </span>
                             <span>
                               <i className="fa fa-filter"></i>Automotive Jobs
@@ -382,7 +382,7 @@ export class Job_list extends Component {
                         <div className="featured-bottom">
                           <div className="job-meta">
                             <span>
-                              <i className="fa fa-map-marker-alt"></i>California
+                              <i className="fa fa-map-marker-alt"></i>London
                             </span>
                             <span>
                               <i className="fa fa-filter"></i>Automotive Jobs
@@ -418,7 +418,7 @@ export class Job_list extends Component {
                         <div className="featured-bottom">
                           <div className="job-meta">
                             <span>
-                              <i className="fa fa-map-marker-alt"></i>California
+                              <i className="fa fa-map-marker-alt"></i>London
                             </span>
                             <span>
                               <i className="fa fa-filter"></i>Automotive Jobs
@@ -454,7 +454,7 @@ export class Job_list extends Component {
                         <div className="featured-bottom">
                           <div className="job-meta">
                             <span>
-                              <i className="fa fa-map-marker-alt"></i>California
+                              <i className="fa fa-map-marker-alt"></i>London
                             </span>
                             <span>
                               <i className="fa fa-filter"></i>Automotive Jobs
@@ -488,7 +488,7 @@ export class Job_list extends Component {
                         <div className="featured-bottom">
                           <div className="job-meta">
                             <span>
-                              <i className="fa fa-map-marker-alt"></i>California
+                              <i className="fa fa-map-marker-alt"></i>London
                             </span>
                             <span>
                               <i className="fa fa-filter"></i>Automotive Jobs
@@ -522,7 +522,7 @@ export class Job_list extends Component {
                         <div className="featured-bottom">
                           <div className="job-meta">
                             <span>
-                              <i className="fa fa-map-marker-alt"></i>California
+                              <i className="fa fa-map-marker-alt"></i>London
                             </span>
                             <span>
                               <i className="fa fa-filter"></i>Automotive Jobs
@@ -557,7 +557,7 @@ export class Job_list extends Component {
                         <div className="featured-bottom">
                           <div className="job-meta">
                             <span>
-                              <i className="fa fa-map-marker-alt"></i>California
+                              <i className="fa fa-map-marker-alt"></i>London
                             </span>
                             <span>
                               <i className="fa fa-filter"></i>Automotive Jobs
@@ -593,7 +593,7 @@ export class Job_list extends Component {
                         <div className="featured-bottom">
                           <div className="job-meta">
                             <span>
-                              <i className="fa fa-map-marker-alt"></i>California
+                              <i className="fa fa-map-marker-alt"></i>London
                             </span>
                             <span>
                               <i className="fa fa-filter"></i>Automotive Jobs
@@ -629,7 +629,7 @@ export class Job_list extends Component {
                         <div className="featured-bottom">
                           <div className="job-meta">
                             <span>
-                              <i className="fa fa-map-marker-alt"></i>California
+                              <i className="fa fa-map-marker-alt"></i>London
                             </span>
                             <span>
                               <i className="fa fa-filter"></i>Automotive Jobs

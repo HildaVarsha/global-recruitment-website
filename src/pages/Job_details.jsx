@@ -66,7 +66,7 @@ export class Job_details extends Component {
                         <b className="mr-5">Job Type:</b>Part Time
                       </li>
                       <li className="d-flex">
-                        <b className="mr-5">Location:</b>California
+                        <b className="mr-5">Location:</b>London
                       </li>
                       <li className="d-flex">
                         <b className="mr-5">Offered Salary:</b>$22k - $34k
@@ -170,7 +170,7 @@ export class Job_details extends Component {
                         <div className="featured-bottom">
                           <div className="job-meta">
                             <span>
-                              <i className="fa fa-map-marker-alt"></i>California
+                              <i className="fa fa-map-marker-alt"></i>London
                             </span>
                             <span>
                               <i className="fa fa-filter"></i>Automotive Jobs
@@ -375,7 +375,7 @@ Collaborate with UI/UX designers to implement intuitive and user-friendly interf
                         <div className="featured-bottom">
                           <div className="job-meta">
                             <span>
-                              <i className="fa fa-map-marker-alt"></i>California
+                              <i className="fa fa-map-marker-alt"></i>London
                             </span>
                             <span>
                               <i className="fa fa-filter"></i>Automotive Jobs
@@ -410,7 +410,7 @@ Collaborate with UI/UX designers to implement intuitive and user-friendly interf
                         <div className="featured-bottom">
                           <div className="job-meta">
                             <span>
-                              <i className="fa fa-map-marker-alt"></i>California
+                              <i className="fa fa-map-marker-alt"></i>London
                             </span>
                             <span>
                               <i className="fa fa-filter"></i>Automotive Jobs
@@ -446,7 +446,7 @@ Collaborate with UI/UX designers to implement intuitive and user-friendly interf
                         <div className="featured-bottom">
                           <div className="job-meta">
                             <span>
-                              <i className="fa fa-map-marker-alt"></i>California
+                              <i className="fa fa-map-marker-alt"></i>London
                             </span>
                             <span>
                               <i className="fa fa-filter"></i>Automotive Jobs
@@ -482,7 +482,7 @@ Collaborate with UI/UX designers to implement intuitive and user-friendly interf
                         <div className="featured-bottom">
                           <div className="job-meta">
                             <span>
-                              <i className="fa fa-map-marker-alt"></i>California
+                              <i className="fa fa-map-marker-alt"></i>London
                             </span>
                             <span>
                               <i className="fa fa-filter"></i>Automotive Jobs
