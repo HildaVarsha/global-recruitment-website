@@ -175,8 +175,10 @@ export class Contact_01 extends Component {
                 <iframe
                   height="530"
                   width="100%"
-                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12609.73108660754!2d-122.47279800000001!3d37.803331!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808586e6302615a1%3A0x86bd130251757c00!2sStorey%20Ave%2C%20San%20Francisco%2C%20CA%2094129!5e0!3m2!1sen!2sus!4v1591859311334!5m2!1sen!2sus"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2481.061057809051!2d0.05099831576038158!3d51.53903617964156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a7c7b1a3b8e3%3A0x5d5e5d5e5d5e5d5e!2s292-294%20Plashet%20Grove%2C%20London%2C%20E6%201DQ%2C%20UK!5e0!3m2!1sen!2sin!4v1616161616161!5m2!1sen!2sin"
                 />
+                {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2481.061057809051!2d0.05099831576038158!3d51.53903617964156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a7c7b1a3b8e3%3A0x5d5e5d5e5d5e5d5e!2s292-294%20Plashet%20Grove%2C%20London%2C%20E6%201DQ%2C%20UK!5e0!3m2!1sen!2sin!4v1616161616161!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> */}
+
               </div>
               <div className="col-lg-6">
                 <div className="ttm-col-bgcolor-yes ttm-bg bg-theme-WhiteColor z-index-2 p-40 p-lg-30 mt-lg-30">

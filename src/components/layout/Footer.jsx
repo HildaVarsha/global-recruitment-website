@@ -118,10 +118,10 @@ export class Footer extends Component {
                 <div className="widget widget-contact clearfix">
                   <h3 className="widget-title">Quick Contact!</h3>
                   <ul className="widget_contact_wrapper">
-                    <li>
+                    {/* <li>
                       <i className="ttm-textcolor-skincolor flaticon-phone-call"></i>
                       <h3>Call Us On:</h3>+44 7734 456458
-                    </li>
+                    </li> */}
                     <li>
                       <i className="ttm-textcolor-skincolor flaticon-placeholder"></i>
                       <h3>Address:</h3>292-294 Plashet Grove,London,E6 1DQ.
